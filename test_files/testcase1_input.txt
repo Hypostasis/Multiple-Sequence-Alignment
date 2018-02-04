@@ -1,0 +1,6 @@
+>seq1
+AATTTCGT
+>seq2
+GTCTTA
+>seq3
+ATTCG

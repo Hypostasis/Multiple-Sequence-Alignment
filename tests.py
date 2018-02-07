@@ -13,7 +13,7 @@ def readBlosum(query, scoring_matrix = mi.blosum62):
 def compute_sum_of_pairs(alignment, scoring_matrix = mi.blosum62, gap_penalty = -1):
     """Returns the sum of pairs evaluation score of the given alignment"""
     score = 0
-    print(alignment, alignment.shape)
+    #print(alignment, alignment.shape)
     for i, column in enumerate(alignment.T):
         for pair in combinations(column, 2):
             if "-" in pair:
@@ -23,7 +23,7 @@ def compute_sum_of_pairs(alignment, scoring_matrix = mi.blosum62, gap_penalty = 
                 score = score + gap_penalty
                 continue
             score = score + readBlosum(pair, scoring_matrix)
-            print(pair, readBlosum(pair, scoring_matrix))
+            #print(pair, readBlosum(pair, scoring_matrix))
 
 
     return score
@@ -37,5 +37,5 @@ def evaluate_clustal(filename, function = compute_sum_of_pairs):
     print(score)
 
 
-evaluate_clustal("test_files/testcase1-output-clustal", compute_sum_of_pairs)
-evaluate_clustal("test_files/testcase1-output-tcoffee", compute_sum_of_pairs)
+#evaluate_clustal("test_files/testcase1-output-clustal", compute_sum_of_pairs)
+#evaluate_clustal("test_files/testcase1-output-tcoffee", compute_sum_of_pairs)

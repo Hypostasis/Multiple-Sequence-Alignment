@@ -1,0 +1,4 @@
+AATTTCGT----
+------GTCTTA
+A--TTCG-----
+Sum-of-pairs score: -85

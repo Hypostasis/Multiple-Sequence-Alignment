@@ -23,12 +23,12 @@ def compute_sum_of_pairs(alignment, scoring_matrix = mi.blosum62, gap_penalty = 
                 score = score + gap_penalty
                 continue
             score = score + readBlosum(pair, scoring_matrix)
-            #print(pair, readBlosum(pair, scoring_matrix))
 
 
     return score
 
 def evaluate_clustal(filename, function = compute_sum_of_pairs):
+    """reads a clustal file and prints its sum-of-pairs score to the console"""
     alignment = []
     for seq_record in SeqIO.parse(filename, "clustal"):
         alignment.append(seq_record)
@@ -37,5 +37,7 @@ def evaluate_clustal(filename, function = compute_sum_of_pairs):
     print(score)
 
 
-#evaluate_clustal("test_files/testcase1-output-clustal", compute_sum_of_pairs)
-#evaluate_clustal("test_files/testcase1-output-tcoffee", compute_sum_of_pairs)
+evaluate_clustal("test_files/testcase1-output-clustal", compute_sum_of_pairs)
+evaluate_clustal("test_files/testcase1-output-tcoffee", compute_sum_of_pairs)
+evaluate_clustal("test_files/testcase2-output-clustal", compute_sum_of_pairs)
+evaluate_clustal("test_files/testcase2-output-tcoffee", compute_sum_of_pairs)

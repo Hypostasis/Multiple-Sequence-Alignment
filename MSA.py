@@ -58,7 +58,8 @@ class MSA:
 
 
 
-    def align_star(self, match_score = 1, mismatch_penalty = -1, gap_penalty = -1, extension_penalty = 0):
+    def align_star(self, match_score = 1, mismatch_penalty = -1, gap_penalty = -1, extension_penalty = -1):
+        """performs multiple sequence alignment by the center star method"""
 
         def extend(msa_to_extend, central, aligned_seq):
             """given the sequence aligned to the center sequence, adds the aligned sequence to the msa"""

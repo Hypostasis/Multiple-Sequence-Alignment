@@ -61,6 +61,7 @@ class MSA:
     def align_star(self, match_score = 1, mismatch_penalty = -1, gap_penalty = -1, extension_penalty = 0):
 
         def extend(msa_to_extend, central, aligned_seq):
+            """given the sequence aligned to the center sequence, adds the aligned sequence to the msa"""
             symbols_count = len(central) - central.count("-")
             sequence_to_append = ""
 
@@ -137,7 +138,7 @@ class MSA:
                                                        self.sequences[central_sequence][1],
                                                         match_score, mismatch_penalty, gap_penalty,
                                                         extension_penalty, one_alignment_only = True)[0])
-        #construct the MSA iteratively
+        #construct MSA iteratively
         msa = [self.sequences[central_sequence][1]]
         for alignment in alignments:
             central_pattern = alignment[1]

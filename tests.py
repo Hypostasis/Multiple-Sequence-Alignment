@@ -39,13 +39,17 @@ def evaluate_clustal(filename, function = compute_sum_of_pairs):
 import random
 
 def random_AA_seq(length):
+    """generates a random amino acid sequence of given length"""
     return ''.join(random.choice('ACDEFGHIKLMNPQRSTVWY') for i in range(length))
 
 def random_AA():
+    """returns a random amino acid"""
     return random.choice('ACDEFGHIKLMNPQRSTVWY')
 
 
 def mutate(sequence, number_of_sequences, p_insert=0.049, p_del=0.078, p_sub=0.051):
+    """introduces mutations into a given sequence
+     and writes a number of mutated sequences into a testcase file"""
     output = []
     for i in range(number_of_sequences):
         seq = ""
@@ -75,7 +79,7 @@ def generate_testcase(length, number_of_sequences):
     mutate(random_sequence, number_of_sequences)
     return
 
-generate_testcase(100000, 10)
+#generate_testcase(100000, 10)
 
 # evaluate_clustal("test_files/testcase1-output-clustal", compute_sum_of_pairs)
 # evaluate_clustal("test_files/testcase1-output-tcoffee", compute_sum_of_pairs)

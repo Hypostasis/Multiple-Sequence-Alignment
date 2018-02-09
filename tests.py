@@ -75,7 +75,7 @@ def generate_testcase(length, number_of_sequences):
     mutate(random_sequence, number_of_sequences)
     return
 
-generate_testcase(100, 10)
+generate_testcase(100000, 10)
 
 # evaluate_clustal("test_files/testcase1-output-clustal", compute_sum_of_pairs)
 # evaluate_clustal("test_files/testcase1-output-tcoffee", compute_sum_of_pairs)

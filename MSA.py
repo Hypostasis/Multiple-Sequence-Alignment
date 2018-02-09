@@ -140,7 +140,7 @@ class MSA:
                                                         match_score, mismatch_penalty, gap_penalty,
                                                         extension_penalty, one_alignment_only = True)[0])
         #construct MSA iteratively
-        msa = [self.sequences[central_sequence][1]]
+        msa = [str(self.sequences[central_sequence][1])]
         for alignment in alignments:
             central_pattern = alignment[1]
             insertion_pattern = alignment[0]
@@ -149,15 +149,27 @@ class MSA:
         print("ALIGNMENT:")
         for x in msa:
             print(x)
-
+        msa_array = np.array(msa)
         #save the result to file
-        score = tests.compute_sum_of_pairs(np.array(msa), mi.blosum62)
+        score = tests.compute_sum_of_pairs(msa_array, mi.blosum62)
         print(score)
         file = open("output.txt", "w")
         for x in msa:
             file.write(str(x))
             file.write("\n")
+
+        for i in range(len(msa_array[0])):
+            conservative = True
+            for j in range(len(msa_array)):
+                if msa_array[j][i] != msa_array[0][i]:
+                    conservative = False
+            if conservative:
+                file.write("*")
+            else:
+                file.write(" ")
+        file.write("\n")
         file.write("Sum-of-pairs score: " + str(score))
+        file.write("\n")
         file.close()
 
     def align_progressive_nj(self):

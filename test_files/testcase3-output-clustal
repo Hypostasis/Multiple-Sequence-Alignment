@@ -1,0 +1,1652 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+Seq5      ------------------------------------------------------------
+Seq1      ------------------------------------------------------------
+Seq3      --------------GAGATTGGGCAT--------------------TTCA-AAGTAGGA-
+Seq0      TCATCTACGCCACAATGATTGGGCTGAAGA-----------------------GTAATTG
+Seq7      ------------------------------------------------------------
+Seq6      ------ACGCCTCAG-GGA-GAACGGTGTACTTACCTTGCGCGCGCTTCCAAGATAGATG
+Seq2      -----------TCATGAGG-TGACGGAGG-----------ACGCGCCACATTAG-AAAT-
+Seq4      --------------------------TAG-----------ACG-GCCTCTACTG-GAAAG
+                                                                      
+
+Seq5      ------------------------------------------------------------
+Seq1      ------------------------------------------------------------
+Seq3      -----------------------------------------GAACAGCCGAGGAGCTCTT
+Seq0      ----ACCA---------AAACAAGAGAAG-----------ATGTCGCACGA-------CC
+Seq7      ------------------------------------------------------------
+Seq6      ACATAACGTTATAGTCATTCCTGGCATGGTCA-CT----AGATACCCCCGAGGTT---CT
+Seq2      -TAAGCCGCAATC-----TCCAG-TATGCACATCTAAGGGGAAACACCCGTATTGCGCCA
+Seq4      AATTACCAGGTAC-----ACCAT-T---------------CCACCACCTGAACTGCGCCT
+                                                                      
+
+Seq5      --------CGGAACT---------------------------------------------
+Seq1      ------------------------------------------------------------
+Seq3      GATAGCGCCGAAACTCACGATCCGGTTGAATCCTGCTTGCCCGAGTGT------------
+Seq0      TTATC------AGC-----------TTACTTTCTTC------------------------
+Seq7      ------------------------------------------------------------
+Seq6      TTTTCCATCGAATAAAAAAA----TTTGCGTTCGGC-CGCCTGTGATAGACAAGAGTTGG
+Seq2      GTCTCCG---AGG--------------------------------------------ATG
+Seq4      TAAGCCCTCTCGGAA------------------------------------AAAAGTTCG
+                                                                      
+
+Seq5      ------------------------------------------------------------
+Seq1      -------------------------------------------------CA-CGCGTC--
+Seq3      --GCTCCGATAAAGCAACCTTATTCCGCAGCTTAAATCTGCCCGGAAGCCA-GGCAACAG
+Seq0      ------TCACTGACCGGTC----------------AATAGACCTGGTTCTTCGTC--CGA
+Seq7      ------------------------------------------------------------
+Seq6      GGGA-TGGACAATGCGAT-----------------ATTGGGTCTGT-----------TAG
+Seq2      GGGTACCGTATGAGC--A-----------------CTTGGCCCCGAAACTGCTGC--CCC
+Seq4      GGAATGCGACAGTGC---------------------TAG------GAACTTAGGC--CTG
+                                                                      
+
+Seq5      ------------------------------------------------------------
+Seq1      --------------ATACAGGTGCGACTTTCACGTGCTCCC-CGCTTATGAT---TTG-T
+Seq3      TAG--GTAGTGCGCGCACAAGAATGACTTTCTCGTAATAACATGCTTCTGTCTCTTAGAT
+Seq0      AAAATG--------------------------TCTGATCT-------------C---GGT
+Seq7      ------------------------------------------------------------
+Seq6      TAAATGGCGAGCGGTGCCGG----------------------------------------
+Seq2      TTGCTGGATTACGATGCCTGAGGTCCCTTAGTTCTGTTCT-AACAACAGGGCACTTGCGA
+Seq4      GTG--AGCGATCGTACATAGAGGGGTCTA---CCTTATCT-TCCCGACTGACTAATGTTT
+                                                                      
+
+Seq5      -------CGTAAT-----------------------------------------------
+Seq1      CCAAT----AAGGGGGTCAGCTGTGTGTCTGTGTG-------------------------
+Seq3      CCTCACTCGACTTAGTGCTGAACTGTGTCAGGAGGT------TAGTACCCTAGTCCTCGA
+Seq0      CCTCTTAGGAT---------------TACGGGTTGATGGT--------------------
+Seq7      ------------------------------------------------------------
+Seq6      ------------------------------------------GCGGGCACTC------GA
+Seq2      CAATAATGGGTGTAGAG------GTTTTCCGATGGTAGTCGAAGGTTCACATGC----AA
+Seq4      CCTTTTTAGAT---GAG------AGCTACTC----TTGGCG--AGGACCCATGC----TA
+                                                                      
+
+Seq5      ------------------------------------------------------------
+Seq1      -----------------GGCT--GACGGG-----TGTCTAGGCGTTACAGAAT----TGT
+Seq3      GCAGGTACCGCCTCGGTAGCTGCGACAGGGAGCTGGACAAGGCTATACGA----------
+Seq0      AGAGGTGTAT------------TGAC-------GAGTCCAGGGTTTACCTTTTTCGTTG-
+Seq7      ------------------------------------------------------------
+Seq6      AGCGGTGTAA------------CAAC-------GCTTCCC---------TTAAGCTTGGT
+Seq2      AGCTGGACAG------------CGG---------ATTCCT---------AAA-----GGA
+Seq4      GTCTGAATTG------------TCTC-------TATTCCG---------CGT-----ATA
+                                                                      
+
+Seq5      -----------GAGGAACGCTGTGACCTTAGAG---------------------------
+Seq1      CGGTCGACACACAGACGCACAGTCACCAATGA--------------------CGTATCGA
+Seq3      ---GC--CTAACTATTACGCTGTCTCCCAAGATAAGCCCCGGTAACGTGCGATGTGTCGC
+Seq0      -------------------CCCGGA------------------------CATGGAGACGC
+Seq7      ------------------------------------------------------------
+Seq6      CCTGC----------TACGCTACGA------------------------CTTCGTTTTT-
+Seq2      -CGGC----------TT--CCATAT------------------------CTTG---TAGC
+Seq4      -ATAC----------CG--CCATAA------------------------CTATTATTTCC
+                                                                      
+
+Seq5      --------GCAAACCCTGA-----------------------------------------
+Seq1      TAGCTGGGTCCTAACCTTATTGGTTAA---TACATCTGGTAG-------CTAGT-----A
+Seq3      TGGACGGAATCGCCACAGAATGTAAGA---TCCAAGAG---------------T-----T
+Seq0      C--------CTTCCCAGAAAAGGTTAACAGTCCGTGTCGCTTCCCATAACAAGACATTGT
+Seq7      -----------TCTCTGGGGTGGGTTGCACTCCTATT-GC--------------------
+Seq6      ----CGGTGCCTCCCTTGAATCACTTCCAAGC---TTAGA--------------------
+Seq2      CGAACGAATCCTT-CATGACTCGAACGCAAT----TCGGC--------------------
+Seq4      CGCA-----------------CTAAAGCTATCCGATTGGC--------------------
+                                                                      
+
+Seq5      ------------------GT--------------------------------TTCA----
+Seq1      GGTGGATAACAGCCGGGCATTTAT-------------TA----------GGCTTCA----
+Seq3      -----AAAGGTTCCGGGCGTAACAGT----------TAT----------GGTCTTA----
+Seq0      GGTCGTGCTGCGTCAAACGTTACAG-------C-GG-AAGGTTGTTGGAGCCAACCCCAT
+Seq7      -GCAAGGGGGCCACGGACGTTTTAAACAAAAACAGGTCAGATTTAAGGGAGCA---CAAT
+Seq6      -GCCTTGCT-----GGGCTATCGA--------CA--------TGATTTAGGCT----AAC
+Seq2      -TCCATACG-----GGAAGGTAAAATAGTAATCAGGT-----GGAAGATGACT----TTT
+Seq4      -CCCGTTGG-----GGA-----------------------------GCAG----------
+                                                                      
+
+Seq5      AATTCT----------------------------------------------------AT
+Seq1      CGTGC-------------------------------------------------------
+Seq3      GGTTCG----------------------------------------------------AC
+Seq0      GGTACGCTGTTACCGGGAGCCCTGCAATGTCTGCGTCTCTTGTGACATCCAACTATATTC
+Seq7      GAAGCCTCTGGACCGGTTC-------------------------------CACTCTA---
+Seq6      CCAACGTCAAAGCCGGAAC-------------------------------CACCACACTC
+Seq2      CTGACCTTC-TACC------------------------------------GACCACCTAC
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      TTGGCCTGATCA------------------------------------TTAGAATTCC--
+Seq1      --GGACT---------------------AACGGGTGGGCCGCGGAGGTT----GAACCTA
+Seq3      ACTGACTTGTCATGTAA------ATGGGAAAAGACGGCCCGCGAATCTTAATAGACCCTT
+Seq0      GAAGACAGTGCAGGCTTCTAA----------TCGTGGC------------------CCTT
+Seq7      AAC------------------G--GATGGTTGAGTGGTC-------A------CTCCCCA
+Seq6      CCAGACATTGCCCTCT-----------ACTCTTGTGGAC-----------------CC--
+Seq2      TACGACAGTTCCGTTTTCTTTGGACATGGTCGTGTGGAGCG-GCATA------GACCCCA
+Seq4      -----------------------ACTTGCTCG-GTGGAACGCGCTTT------AACCCTA
+                                                                  **  
+
+Seq5      -TCCTAACCGTGGGCCG-------------------------------------------
+Seq1      TATTGAGTCG------GTTCCGCTCACCTGGTGCTATCACGG----CCGCAAGAGCAATG
+Seq3      GTCCTCGTCGTGTACCGGAACGCTACCCAGGC-------------------GGAGCAATC
+Seq0      ---------------------------CAATGGCG-------------------------
+Seq7      ---------------------------CCTAA-CGTCCCTAGACAACAGTGATTTCTT--
+Seq6      -----------------------------------CATCC----GGCAGTAT--GCGATA
+Seq2      ---------------------------CAGGTAC---GCCAGACATCGGTTTCTTCGATG
+Seq4      ----------------------------GAATCCAAATCTGGCCGGCGCTATGTGCACT-
+                                                                      
+
+Seq5      -------------------TCACGGCGCCCCCAA--TCGGTA--------CACA------
+Seq1      ACCAAG-AT--TACCTCGGTCTCGGCTCCACAAG--TTTGGA------GGCACTCTCT--
+Seq3      TCCTGG---------------TCGGCGACGCT-------GGT------GTCACAATGATA
+Seq0      -------------------CCTTAGATCCTCAAAAAACTGTGACCTTAATATCAATGTGT
+Seq7      -------------TCAA--CTTAACCTCCGCCAA--TCGGTATCAGT---CACGCGGTTA
+Seq6      TAGCAGCATCATATAGCTGAAATAACACCACAAT--CCGGTTACTTC---CACTTAGATA
+Seq2      ------AATCAATTCAAATA---AGAACCGCTAG--A--GT---ATC---TGC-------
+Seq4      -------ATAAGGTCATCGA---GAAACCTCATA-----TA---TTC---AAC------T
+                                 . . .* *                     *       
+
+Seq5      ------------------------------------------------------------
+Seq1      ---ATCCGCC----ACGGT------------GCGAACTTCCCTCTAGG-TGTCCGAG---
+Seq3      AG-TCTAGCT----ACGGG------------GTGATCTAT--------------------
+Seq0      GCGTCAATCCACACTCGCTTCGTCGAAC---GCACAGAGGCTTCTCATAGGACAGCGCCA
+Seq7      A------------AACTTTAGGACGTACAAGGCAT-TT-TC------GTGCACTGTCCCA
+Seq6      AGGTCTAACCTCAGCCGGTGG-----AA-TTGCAT-CTATCATCGCATGTGACAGTGCCC
+Seq2      -----ACTGCGCATCCCGAGGGACCGTT-ATGCG-------------TTGAACAGTACCT
+Seq4      CGGACACTCTGCCGTCCGAGCG--GGGA-AAGCG-------------TGGGTCGGTCAAT
+                                                                      
+
+Seq5      ------------------------------------------------------------
+Seq1      -------------------------CCCGGCAGCACGCGTGCACCATGGTGAT------T
+Seq3      -----------------------------------------------------------T
+Seq0      AACT--------------GACA-----AAATTGCAAC------TCGAGTTATTGAA----
+Seq7      ------TGTGG--CATGTGTCTATGCCTCTATGCAGGTCTTTACCGTGATAATGAGATTA
+Seq6      AGGTCGTGA----AGACATGCACATCCTCA--GC-GGTGAGCG-----------------
+Seq2      GCTTCACGAACCGAGGGTTTTCCAGTCTATTTGCAGGTGAGC------------------
+Seq4      GA--------TCTAGGGAGGCTCTGCCT---TGCAAGGTAAT------------------
+                                                                      
+
+Seq5      ------------------------------------------------------------
+Seq1      GCCATCCAGA------------TATCGTATATCGCAACCATCTTGTA------AGCTTAG
+Seq3      G-------GC------------TGACTAAACTCGACACC--CTAGTTTACAATTGCCTAG
+Seq0      --------GCGGTGTGTGACCGTAACTGTGCCCGT------------------TGCATAG
+Seq7      GTCCCCACGCATAATTTGTCTGTGTCAGGAACCATCATCATCAG----ACTCAGCCTTTG
+Seq6      -----------------GTCGGTG------------------------------------
+Seq2      ------------------------------------------------------------
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      ------------------------------------------------------------
+Seq1      AT--------ATAGGACTG----------TTCCGTTCG-AC-AATAGTGTTGAAT-----
+Seq3      TTTA---ATGATTGGACTT----------GAAAGTTCT-TG-ATAA---CTGGAT-----
+Seq0      CTGTGGCGTAAAT-TAGTATCGCGTACCCCTCTAATCAGTCGAA-------GGCATGGAG
+Seq7      CTGCAGTGAGGTT-GACGTACGCACTCATGCCTACTTGGGCACCTCGTTAAGGACAATGT
+Seq6      -------GTGGTT-GACCTT------CACATCAATACCGGCCACA---------------
+Seq2      -----------------------------GGCAATTCGGGCATCTAGAGTACCTA-----
+Seq4      -----------------------------GTCTCTTA-GGCGTT-TGAGTTAGAT-----
+                                                                      
+
+Seq5      -------------------------------------------------AAGCTTGCACT
+Seq1      ---ATCGTTGTACA--CCA-AGCTA---------------TT---AAAAGTCCTGGCACA
+Seq3      ---ATCATATGGCGGGGCAGAATTT---------------CT---GAAAGA-CTAGCATA
+Seq0      GCGCCAGTGTGACTGCGATGA-------------------------------ATG-----
+Seq7      GCATCCGTATGGCCTCTCATGAAGA---AAGC---ATTTTCTG-----AAGCAAGCCACT
+Seq6      -----------ACAACGCCTACAAATTTTAGCGTCTTAATCTAGCGTAATCCTATTCACT
+Seq2      ---TAGGAATGACAACGCAGGCTCACA-TTGC---------TAAGAAGAATTTAAACACT
+Seq4      ---TTGGATTG--------------C--------------------------GTTACACT
+                                                               :      
+
+Seq5      ACC--------------AGTGAA--ACGA--GAAACCGCGT-GGATG-GTAGCCTCC---
+Seq1      --------AGTCCCCGTTGTGGT--TCGGG------------------------------
+Seq3      CTC-----CGAGCCCGCAAAGGT--TCGTGAGTTACCTCCT-AGGCT-GTGTCGTCCGAG
+Seq0      -ACCCACGTCGCCCCAAG-----------GTGT-ACAAAGCCGGATT----G-CG-----
+Seq7      GCCTGGCGTGT-------------------------------------------------
+Seq6      CA----CTCGA-CCTAAAGAGGT--ACTGGTAT-TCATTTTAAGTTTGGGAGCAG-----
+Seq2      GGCCCGCGCTA-CTTAAG----------GGGAG-TCTAATAA--ATA-------------
+Seq4      GTTTCGCTTTA-CAAGTTGCGATGGCAGTGAAG-ACAGTCTAGGACT-------------
+                                                                      
+
+Seq5      ------------------------------------------------------------
+Seq1      ------------------------------------------------------------
+Seq3      AAATGTTGTAGGGCCGTCATGAACTATTACACT-----TGT--GGGGATCATACTGAGAA
+Seq0      --------CAGAGTCCACATGTTTCGTTC---------------------------ATA-
+Seq7      ------------------------------GCTATTTTTGCAGCGG--------------
+Seq6      --------CGAATCCCACTTGATTCCATAAGGTAGAATAGCTGCGAGATCATAATCCCA-
+Seq2      ------------------------------------------------------------
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      -----GTCCGCGTTGGAGGGTCATTATCACCGCCGCAAGGCGGT--------CATCTGCA
+Seq1      ----------------------------------------CG--------------CGCC
+Seq3      CACAAGTCCGGCTTGCCGGGTCAGTAAT-CGGATATTCGGCG--------------AGCA
+Seq0      -TCGTTA-TGGGGTGTCGGG----------------GGGGGCAA------GCCCGTAGCC
+Seq7      ---------------------------AACGAA--TTGGGCAATGTT-----CGTC---A
+Seq6      -ACGACAACGAGGGGCCGGAGGAGTGGCCCGACCGAGGTTATATGCTCTGGCTAGAACGC
+Seq2      ----------------------------------GTGGGGGGAT------GCCTACATTT
+Seq4      ----------------------------------GTTGGTGATA--------TTAGACAC
+                                                                      
+
+Seq5      GGAATCCTTTA-------------------------------------AAACAGG-----
+Seq1      GGGATCCCTGTTTCC-----CTCAGTCC--CCCCGTGG-------ATGATCCAGA-----
+Seq3      GGCTACC-TAATC--------------------CGCAA--------TAAAACTGA-----
+Seq0      CGCTACC--------------GCAATAGTGAG----------------------------
+Seq7      CGCACC------ACAATTGCCACAGACGTGCCTCTTGTATA------CAACATGACCCA-
+Seq6      CGTAGCCCTTGCGCCTACGCCACCGAAG--GT---------G-----------------G
+Seq2      CGCATCCACGTAACCCATGCCACTGAGA--CCACGTACTTTAATGATATTTCTGACCAGG
+Seq4      CGCAGCAACAA--------------AAG--CCTGAAGCTTTA---------CCGACCAAT
+           * : *                                                      
+
+Seq5      ---AACTACGCTTAGTTCTCTCTCAAT----GGATGTT---------AATTCGCTTGTTC
+Seq1      ---AC-TTC--TCAGCCCGGTCGCGGA----GGCATTTA-----ACAGTTGAGCACGGAC
+Seq3      ---ACTGTC--AAAACCAGCTCGCGGG----AGTTGGCC-----GCATTTGCCCTAGCCT
+Seq0      --------------TTGC--AACCGGTTAGAGGCCGTGCGCTCCACTTTGGCGTTATGGC
+Seq7      CGGAACT--------TTC------ATACTGGTGTCGTGCTTAATGATTATG--------G
+Seq6      CGAAATCTCGATGTAACC--ACGAGGTTTGTTGTCGTGTAA------------------C
+Seq2      GCGTATGTTGCTTTTTCC----GCGGATTATGGACGAGAGCTTATA--------------
+Seq4      CGGAGCGTCGCAA------------------AGTCGGGCGCCAAAA----G--------A
+                                          *                           
+
+Seq5      G-----------------------------------------TTAGCCCACCCAT-----
+Seq1      GAAGTTTCT---------------------------------TTAAAGCTCTGTA-----
+Seq3      GTACTA------------------------------------TCGATGCTCCAG------
+Seq0      GTACTGTCTGT-------------------------GGACCTCTAATGG-----GACAG-
+Seq7      GATCAGTC--CGCCGTCGAAAAACTTACTAATGACGGGTCCTTAGCCGCTCCG-ATCTTA
+Seq6      CAACTATCCTAGCCGACGATAC-----------ATGGGGCCCAA-AAGTTCCCGTACCGT
+Seq2      ------------------------------------TTGTCAT-----GTTCG--TAAGT
+Seq4      CATCTATCTAAAT-CTCGTTGT-----------TTGATGCCATT-CTGTTACGATAAAGT
+                                                                      
+
+Seq5      -----------------T------GGCACACCCACGCCCGTCTACCTCCTTCACTCGTC-
+Seq1      -----------------TAGCACCCGCGCCTCCACGCTC----ACCTCCTATGCGTATA-
+Seq3      -------------------CCGTCCGC--ATCATCTCC-------CCCCTGATAGTATC-
+Seq0      --CCTTCAGCTTTGTCTAAGA-TCCGAAC----TC--CCGTGTATACACTAATCAT----
+Seq7      CGCAGATTGCATTGAATTAGCCTCCTTGAAACCAC--CCCTAGTAACAGTAATCTAACAC
+Seq6      CAATTA-----------------------------------------CGTAAGC------
+Seq2      CAAATTCTGCAGTC-----------GAGCCGC-GT--CTCTCTAGAAGCAAAGC------
+Seq4      CTCCTGCTGCATTA---TCACCCCAGTGCGGC-GT--ACCAA-AAACACTATGC------
+                                                           :   .      
+
+Seq5      --ATTGCATTC-------GAGCGATGGACAGACCAGAGTCCAATCTATCGCTT-ATACAG
+Seq1      --AAGGTG----------GTCCAATG------------------------------T---
+Seq3      --AAGCCG----------TAGCTAGGAACATTCGTGAGTTGAA---ATCGTAA-TGTCTG
+Seq0      -------------TATAGGGAAAATG-----AC------TCT-TATACCCCGGTAATCTT
+Seq7      TTTATGAGTACCAAGAAAGGCCTATGACCTA--------TCC-ATTTGCGCGT-------
+Seq6      ------------TAGTAGTGACGATGCGTTTAC------CCA-ATCTTCCCT--------
+Seq2      ------------ATG------CGGTGCGTA--C------TCA-ACAACCGCGT-------
+Seq4      ------------A---------------AA--C------A------ATCCC-G-------
+                                                                      
+
+Seq5      CGCCGCATG---------TGATAACTTGCA----------CTTGAGCGTTG---------
+Seq1      -CC---------------AGC--ACACACCG------AGGCTGCAGTTTAG---------
+Seq3      CCCTG-ATG---------TGT--ACGCACCCAAGGTCACGCTGCTGCATAA---------
+Seq0      CATTGCGAGTGAATCTTGAGAAAACCTC------GGCAGGGCCCAGTG------------
+Seq7      ----------------------------------T-CTTGTTCCAGGATAAAATTTTAGC
+Seq6      -------------------------------------TGGCGCCGTTAATG-------G-
+Seq2      ----------------------------------AACCGGCTCCT-----T-------G-
+Seq4      ----------------------------------GCCAGGCTCCT-----C---------
+                                                                      
+
+Seq5      ----TACTAGTGA---------------------------GTAACGTATGGAGCTGT-TA
+Seq1      ------CTCGTAA---------------------------GTG-GGGA-CGAGCGGGCTA
+Seq3      ------CTCTGTA---------------------------GTA-CGAA------------
+Seq0      ------CTAGGAGATATAGGTTTAGCTCAAGCGGGTA--TGCTTCGTAAAGAGCTCGAG-
+Seq7      AACACTTAATGAGTTGTAGCTTA-AGTCAGACAAGA----TGGACGAAA-GTGCCGT-G-
+Seq6      ----GTCAAAGGGG------------GCTGGCTTGAAGATTCGGCGTAT-TTGCTCC-T-
+Seq2      ----TTCAAAGTGA------------ACTT---------TACGA-----------CC-T-
+Seq4      -----TCAATGTTA------------TCAA---------ATAGT-----------CC-A-
+                 :.                                                   
+
+Seq5      GTCC--ACCATCTCGTATCGCCATACAAGCCCCTAGGCGCCGCGCAGCATATAC--GTTG
+Seq1      AACC--A-CAGC-----ACGACCTTCGGGCCGGTGTAC-----GCTGCCTTATCAAGTGA
+Seq3      ------------------TGAAAATGGGGCTGGTGGCC-----------------AGTGA
+Seq0      ATCT--AGC-TAACATATTAACAGAGCTGCTAGTAGGCACCGCACTG-------------
+Seq7      ATCT--------ACATACAA------ACACAGGAAAGCCCTGTG----------------
+Seq6      TTCCATAACTTTCCGTACTA------TAGCAGGCTTC-AAAGCG----------------
+Seq2      ATAT--GAGAAGCCGGTTT-----------------------------------------
+Seq4      TTCG--GA---TCCGCATTT------CAGCTGACTAG-AA-ACG----------------
+                                                                      
+
+Seq5      AGCTACAGGAACTCCAAGCCGTACGATAAT------------CCATGAATCTC-CATAAT
+Seq1      GGCTTAAAA-CGTTTCCTCCGTAGTATTGCCCACCA------CCATGATCATATCTAAAG
+Seq3      TGC--------TTCACCACCTTTAGATA--CCACTTGCTCAGTCAAGATTGCTTTTTTTA
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      ------------------------------------------------------------
+Seq2      ------------------------------------------------------------
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      TGAAATCCATTGACTGAGCGCGGTTTAATCCAAGGTTTAGC-----ACCAGGA-------
+Seq1      AACATGCACAATGCAGGATGCGGCGTCTTT--TTAATTAGCCCTTCACTCGGA-------
+Seq3      AGTATGCAAGGAGT-CAACGCGGTGACTCT--ATGG-TAGCGATGTTCTATGA-------
+Seq0      -----------------------AAGCTTTCCAAATGTAGTGACCTAAATGGCTGGGTGT
+Seq7      --------------------------CTGCCCAGGTCTTCAGTCCCTTTGTGAGAGATGG
+Seq6      ---------------------------TGCCCATTTTTACCGGCGTTTTTTGCTAGAT--
+Seq2      ------------------------------------------------------------
+Seq4      ---------------------------C----------TTCGACGTATTA--GATGCT--
+                                                                      
+
+Seq5      -GGGCACCTCT------TCGGGGCGGGTAACCCGCTCGCGATAACC-T--------CAGT
+Seq1      -C----------------AGGGCCGGG-------CGAGCGTGCCCGCT--------ATGA
+Seq3      -------------------AGATCAT---------AAACGTGACCCA-------------
+Seq0      AAGGAACGTCAGACGCACAGGATCTTGAAGTTC----CAGGAAGCCTTTTAAGCCATTGA
+Seq7      A-----CGGCT------AGTGATCTTGGAGCTC----GG---AACAT----------CGA
+Seq6      -------------------------------------------GGCA----------CGT
+Seq2      ------------------------------------------------------------
+Seq4      -------------------------------------------GCCA----------CGG
+                                                                      
+
+Seq5      GCCTTTTAAGTTTATTCGCGTGTGG---AAATCAAGGGCTGA-----TACCTATGGTTAG
+Seq1      GCTGGTAGAGG-GCTTAGTGTATGTCAAGATCCAA----TGGTAATACTCCGTAGGTATA
+Seq3      ------------ACATAGAGTTTTCCAAAACACTGTAGCTGGAGCTATCCCGTGGGCATA
+Seq0      GCC----GGG--------CGT-------GTTAAAACAGCATGGACACACTGGTATGAAAG
+Seq7      GCGGTTAGGT---------------------------TTAAGGCCACTCGGGCAGGTTAG
+Seq6      G--------------------------------------AGGTTCGGTCCAGGGCGAATG
+Seq2      -------------------------------------TTAGGGGCACTC-CGATGG----
+Seq4      TCGGTGAGAT--------CGT-------TATACGTTGTTATGTTCACCC-AGCTAGGATG
+                                                 : .             *    
+
+Seq5      GGAACGGTGTCCTCTA--------TGGTGGATGC---------------------AACTT
+Seq1      T--------TCGCCGTTAGGACATAGATAGTCGC--------------------------
+Seq3      AGAAAAGGCACACCCATAGAACCTAATATGCTAC---------------------AATGT
+Seq0      A-------GGGCCCGTGTGCACATCAGTAGTGGACTTGTCCGCGGGGCGTGC-------T
+Seq7      T-------GACTCCGG-AT-----------------------------------------
+Seq6      A-------GTCACAGG-TA--------------CCTATTATG------------------
+Seq2      --------GGCTCTAT-AG--------------ACAGTCGCACGGGGTAT-CGAGAGGG-
+Seq4      G-------AACAGTAG-AA--------------CCTTATGTACCGGGTAAGAGACAATGT
+                                                                      
+
+Seq5      CACGTAA-AACGTACCAGATCGCA----TCAATCAACTAAAGAACTATCAAACGATTGAA
+Seq1      ---------------CAGG-TAGG----GAT---ATAA-----------------TATTT
+Seq3      CCTGTAACATAGTACTAGTTTTGG----GAA---GTTCAATGGGCATTCACCCGATAATT
+Seq0      A-TACCCCAGCGAACTGAATTCATGCGGTACCTCC---GCCGATACA-C-----------
+Seq7      ------------------------------------------------------------
+Seq6      ---------GAGT----GTATCTGGCGGGAAACCATCAGAAGTT----------------
+Seq2      ---ACCTAAACGT----G-------CG-----------GCTGGTCAG-C-ATCGTGATTA
+Seq4      C-TACACAAACGT----GTTCCGTACGATATATCCATAGACGGTTCG-C-ACCGCTTTGA
+                                                                      
+
+Seq5      ----CATTTCCAAT--TCTGCCG----TCCTGGTTGCTGATAT-CACAT----TGCCGC-
+Seq1      CAAC------------CCTCCCGCTGGAGGGGAGGGCAGAG-------------TCCAT-
+Seq3      CGCCCATGACCA-G--TCACACGCGACTCATGGGGGCTCAC------------TACCAC-
+Seq0      CTATTTGGTGCATTGTAGTACTCCGTCAGCC-----------------------------
+Seq7      ----------CG--GGGCCCATCCGACTCCCGGGGGAAGCCGATCGCGCGATAAGCCGAC
+Seq6      CT--AGTATGCT--CCTGCCACTCGTCACA------------------------------
+Seq2      CTCTCACGCGCG--AAGTCAATTCATCACC-GGGGGCTCACTGTCGGGTGTAGA-CCGTA
+Seq4      C------ACGCG--GCTGCTA--------------------GATCAAGCGTCCG-ACGCA
+                              .                                       
+
+Seq5      ---------GTCCGATGTGAAAGCGGA--CGCTC---ACCACCTAGCATCTGCGGGG---
+Seq1      ----------ACAGTTAAGTACACGAA--CATAGAGACCTCCCAATC-----CGTAG---
+Seq3      ----------TCT---------ACGGT--AACCAAATCGCCCCAATCAT---AGTTG---
+Seq0      -CGTGG------------------TGAGACTCCAGT---ATCAGAGCG---GCTCCG---
+Seq7      ACGGAAGCAGGCTAAATTAAAGACTGAGTCCCCGATTGGCTCA-----------------
+Seq6      -AGTGAAGAGCCGTTTGTACATGTTGAGGGTCCAC--CCCACCTTCCGTCTGTTCCGCTG
+Seq2      AAGTGCAG------TT--------TGA--GCTCTT-----ACAAA----------GGGTG
+Seq4      ATGTGATGGGTCTGTAGTA---GCAGA--GCCCATAAGCCTCAGT----------AGGCG
+                                   .:              *.                 
+
+Seq5      -----CGACAATTGACGGAGTTTGG-CAAAA--CC-CTATGGGGGGCCA-TC--------
+Seq1      -----TGTCAT-GGTCGGTGTCAAGACTTAGTTCATGGACGTGGGGATT-CC--------
+Seq3      -----TGTCAG-G-----------------GTTCGAGTTTGAGAGGCTA-AC--------
+Seq0      -----------------CAGTATAGATATGGTGTATCGAGGCGGAGACGACC---GATTT
+Seq7      -AAGCCGA-----------GTG--------------------------------------
+Seq6      TTAACCGT---------------------------------------CGGCC-CAGTAGT
+Seq2      TATTCCGT----------------------------------------------------
+Seq4      AAAACCGTTCCTGGACTCAGTGAAGTTA---------GTGATGTAAACAGCCCCATAGGT
+                                                                      
+
+Seq5      -------------------------CCGTCTCA------------GGCTGATA-------
+Seq1      -------------------------CTGGC-CG------------AGCCAATGAGAGGTT
+Seq3      -------------------------CGAAC------------------------------
+Seq0      AACA----------AGTCTGACTCCCCGGCGCGATTAGTAATTCCGCCTGGAATGTGAAT
+Seq7      ------------------------------------------------------------
+Seq6      TACTTGTGG-------------TGTCAGGCATTACGTGTAG--------GAA--GTGCTC
+Seq2      ------------------------------------------TAGGTCGCAAGAGTGTAA
+Seq4      TACGAGACGTACCATAACTGAAAGACGGGCTTTAAGAATAT-CTCGACACAAGAGAGTAA
+                                                                      
+
+Seq5      --CTTTCTGTATCCCGT--------CTGCTCTTCTCAGC--TCAAGGTGGGTG----GAA
+Seq1      GCCGGTCTACGACTCTC--------CTTCCGTTCACACCTCTCTTTACG--AG------T
+Seq3      ----------GGCCC-C--------CTTACTAT---------CTAGGAA--AT----GCT
+Seq0      TCTA--G-GCGAGCTTTCATGTGTACTAACACGCGCAAAGTCCTAGGCAAG-GCGCAGCT
+Seq7      -------------------GGG-A------TAGCGCAAC---C-----------------
+Seq6      G--ATTT-ACGAACTTAAA-----------C-TAGCATT---TTTTGCTTAAGACC----
+Seq2      GCCATCC-AAGGTCTTACTTGG-G------CTGCACAAA---CTCTGCTAGAGTGT----
+Seq4      GC---------GTCTAAATGGG-T------ATGCACAAT---CAATGCTTAATCTC----
+                                                                      
+
+Seq5      TAGG--TCCAAAACT-------CACAGTAGTGTTCTGGGCCCGAGCCTTAG---------
+Seq1      CAGAATTCCGGAAC--------TTCGGAAGACATAAG------------TA---------
+Seq3      TCGACCTTTGGAAC--------TACAGTGAACTTCAT-----------------------
+Seq0      AAGCTAGGCGACACAACCATGGAT----------------------CGATCTAATAAGGG
+Seq7      --------------------------------------------------CTTCGGT--G
+Seq6      --TCCGGGCAGC---CCCATGAGTCCGGGGCCTTGAGGGACCATGTCTT-CTAAGGA--G
+Seq2      --A---------------ATGTCTA----GA----------GGTGTCATGCGTAGGA--G
+Seq4      --T---------------ATGACCCCGTCTC----------CGTGTCTTTCAGCTGA--G
+                                                                      
+
+Seq5      ------------------------------------------------------------
+Seq1      ------------------------------------------------------------
+Seq3      ------------------------------------------------------------
+Seq0      AGTAGC-----------------------------GACTGCAGGCATCTA-TGCGACCCA
+Seq7      -------------------------------CAT----------CACGTTAGGTTACCCG
+Seq6      ATTGGCTCTCGTAACTTTGTATAGGCCCTGCCGTCGGGTGCGTCCGTGTTAA--TTCACG
+Seq2      GG--G-------------------TTCAGATTGTCACAAGGGGGCGTGT-----GGCCTG
+Seq4      AT----------------------TTC----CGACGCATGCATGCGCGAGTATATGCCTG
+                                                                      
+
+Seq5      ------------------------------------------------------------
+Seq1      ------------------------------------------------------------
+Seq3      ------------------------------------------------------------
+Seq0      ATGCAAGATTGCGCTGCTTACGTACGCATGACATTGTTCTAGCTGCGGCGACTGTCAAAT
+Seq7      ACACAGGTA-C-CGGGCAATCATAA------T-------------------CTCGGG---
+Seq6      TTATTGGAA-GTACAGCATTCTAATACTGGTC-------------------CAGGT----
+Seq2      CTTC--------CAA------------------------------------CAGTAT---
+Seq4      GTGC--------TCATAATACATAGGCGTACC-------------------CAGGGA---
+                                                                      
+
+Seq5      ---TCGTACATCCAGCGTTG-----------------------------CTAGGCTG---
+Seq1      ---CCGTAAATCCAGTGATA-----------------------------TTCACC--CTA
+Seq3      -------------AGTTTTT-----------------------------ATCAGCCACTT
+Seq0      CAACTAGGCTACGAGTGTTTTCGACTATATCCTCGATGGGGGTTATGTACACACCCTTAT
+Seq7      -----ATCCAGCCAGGGTTGTCATCAGTCA--A-AGTCGTAATAATGTACTCTACTAAAT
+Seq6      -----ATGC-GCATGTGGTTGCTTCTGGTC--TGACCCGGTCTTATATACACACCAGCAA
+Seq2      -----ATGGAACC-AGGGTGTCAT---GTA--A---GCGATGATTTCTACTCTTATTTTG
+Seq4      -----AAGCTGCCAGGGGTGTCAA---GAG--GTTTCCAGTGTT--GTACTCCCTTG-AG
+                        .   *                               :.        
+
+Seq5      ---------------------AGTGGTAAGACGGACATACCCC---------CC--A---
+Seq1      AG----------------TCCTG------GCTT--CAATCGCA---------CA--G---
+Seq3      TG----------------CCCTACGAAGAGCCG--AAATCCCA---------CCGTG---
+Seq0      TTCTCAGTACAATCCTTTCCAAGGGCGGAGCA--GCTTTCGCTAGCTAGAATC-------
+Seq7      AG----TTGCAT---------------ATGTAGGCATAACTTGAGCATGATCGC------
+Seq6      ---------CCC-----CA-CAGCGCCGTGCGGGCCTGTCACTAGCTT----CTGAGC--
+Seq2      ------ATTCTT---------------GCGGGGGCCTATT-----------AGTT-GC--
+Seq4      ------GATCTTACCGGAT-ATATGCTGTATGGGCCTTTCGAGTTCTAGATAGAGAGCGT
+                                       .     .: :                     
+
+Seq5      ---------CCCAA----GCGGCATAATGTAGCCACCCTCAGACA--GGCAAG-------
+Seq1      ---------CTCTAACACGCAACACC-TG-T------------------CAGG-------
+Seq3      ---------CCCTTATGCTC-TCTCC-AG-TACGAACCTCATACAATATCTAG-------
+Seq0      ----------------TCAGGTAG------ACTAAACCTCTTA-----------------
+Seq7      ------------------------------------------------------------
+Seq6      -------ATCCCATAATCGGGATA------G-TTGACCT---------------------
+Seq2      -----------------CGAGACA------ACCTGACGTCATACCAAAACAGCAGGGTTC
+Seq4      AGGCAGCACTCCCACCACGTGTTT------GACTGACCCCATACCTACACAAA-----TC
+                                                                      
+
+Seq5      ---CGTTTAGAATC----------------------------------------------
+Seq1      ------------------------------------------------------------
+Seq3      ---CGGTTCTTTGCGCG-------------------------------------------
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      -----T----TTCCGACCGCCTTAGCAAAGTAAGCTTTAAATCTAAT-------------
+Seq2      ATACGATACAGTTCGAAAACCCAAGAATAGT--GCAAAT-CACGACTCACTTAGCGCTGG
+Seq4      AT--------GT----------TAGCAAAAA--GCTTTA-CTCGGATCCCCAGACGA---
+                                                                      
+
+Seq5      ------------ATTACTACGCGTG------CCGC-AAT--TGCCTT-T---------TG
+Seq1      -----------------------------------------AGCATCTC---------AA
+Seq3      --TATTCAGGATTGTTCAACGAGTC------TGGT-AACTGATCCTCTC---------GT
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      ----------------CTACAC--------CAGATGTGTTA---CTCCCCATCC------
+Seq2      CTCAATCTGGGT--GACAACGCAAGATACTCCGGTGTACAGAGCCTAACCAGCAAGTTGG
+Seq4      --------------------------TTGTCGGGCGT-AAAAACCTCGCCAACAAGAAGA
+                                                                      
+
+Seq5      C-GGGAGC---GACC--TTT-----------------CTCATG---------AGATGCGG
+Seq1      C-GGGCAT---AACA--CAA----------------AAT---GAGAT----AGGATGAAT
+Seq3      C-GGCCTC---GAAA--CAA----------------CATTATGTCATCTCCGGGATTTGT
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      ------------ACACACATAGATAA--CG-----CCTATATAAC--------------T
+Seq2      CTGGGCGCACCGAAATACATAGAAAGGGCGACGATCCTTAATGTCC-CTTCGAGTCATCA
+Seq4      TGT---------------------------------------------------------
+                                                                      
+
+Seq5      CTTATCCTAAGCATGCGCCA--GTAGAAAC-TATTAAAATTCGGATCGTCCAGCGAATGG
+Seq1      TTTCGCCA-----TACCCCAAAGTGTGAACATTGCGAATTACGGTTCGTCTGACGCATTG
+Seq3      CCCCTCGT-----TACCTCATATCGGGGA------------------TGTTCACGCTGTG
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      CTTCCGCCGGAAA--CTCG---------------------ACGGAT-----GCTGCT---
+Seq2      CTTCTCTAGGAGTTGCGCGTAATTGAGAACATAGTAGTCTTAGCAA-----TTCGCT---
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      ACCTATTGGACTGGAGCTGCTTTCGCATACACGG---AAGTCTC---------------G
+Seq1      GC--------TAGTATCAGCAGCCAGAAACGT---------------------------G
+Seq3      --------------AA---CCGCTAAGTACAG---------------------------G
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      -------------------CAGTCGAGTACGAGTGTAAAGT---AATAGCGCGGAAACA-
+Seq2      -------------------CTGACGGGG-CGCGATATGAGACCGGAATGGGCGGTATTCG
+Seq4      --------------------------------G--ATAAGACACGACTAAACGGACAACG
+                                                                      
+
+Seq5      CTTGGATACGTGATTATCGCAAAT-----TTCCAACACATA------------------C
+Seq1      TCGGGTTATGAAA-----G----------------------------------------T
+Seq3      ACAGG-------------------------------------------------------
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      ---G------AGGATACCTCAGACACCTCTGCCC--AGGG----------AGGGTTGACA
+Seq2      TCGAAATTCCAGTGTTACTCTGGGGGCTCTTCCACCAAGTAAT---GTTGCAGGGTG-AA
+Seq4      ACAGAGG----GAATTACTCCTTCTATGCTCCCCACAAGTTAGCCGGAAACGGGCAG-CA
+                                                                      
+
+Seq5      CAGTGGCTTCAGGCCGGTGTACGCGAATGGCGCGCACTCACGCCT-----GGCCATTCCT
+Seq1      GATTGGCAAACGACCTTCGTTCGCGAAATGCAAACTTCTA---CA-----GCACTT--TT
+Seq3      ----------GGTGCCCCGTG-----------------------A-----GCC-------
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      TGGTGA---------GGAAA-------TCGCTCGCCCTCTTGCATAGTTGGCCCGTGCAC
+Seq2      TAGTGACTTAAGTCAGGTCAGTCTACTACATACGCACCCG----GTTTGTCACTGTGGGC
+Seq4      TGGTTA-GATTGACCGGACAAAACTCATCA--CGCT---------TGTGCTTCTGTGTAC
+                                                                      
+
+Seq5      TAGGCTC-AAAGCTTGCTCGGGAATAAATCAGCCAGCTCCGGTAGTAAATTACGTCGATT
+Seq1      ACGACAAAGAGGCTGTCACGGTGAAAT---------------------TTAT--------
+Seq3      ------CAAATGCTGTCTCGGCAGTAG---------------------ATGA--------
+Seq0      ------------------------------------------------------------
+Seq7      ----------GGCAGTAACGGGGTCT----------------------------------
+Seq6      CTGGACCCAGGGCGGGCCGGGCGATGAT--------------------------------
+Seq2      ------CTAGGACA-ATACGGAGGTCAT--------------------------------
+Seq4      ------TAGTGGCAAATACCGCGT------------------------------------
+                                                                      
+
+Seq5      AGGACCCCTTCCAAGTTCGTGGAACGCGGATCAATCGACGTTCGATACTGCGCTGGAAAC
+Seq1      --TACTCT---------AGGGCTACGC------------------------TCTGATTCC
+Seq3      -AGAGACCTTGTCTG--TGCGGATCGC------------------------GCTGAATTT
+Seq0      ------------------------------------------------------------
+Seq7      ---AAC--------------AG--------------------------------------
+Seq6      --ATGC--------------AGATC---------------------ACTGCTCGGGTTTC
+Seq2      --GTCC--------------TG--------------------------TGAACGGAA---
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      GGTT---------------TTGTATGACTGCTCCAAAAAGTAGCCTATTGCTC-GCCAGC
+Seq1      --AG----------------TTGAC--------------------------TCGATCTGC
+Seq3      ATCG----------------TAGACGTCCGCTTCATATTTGT-------GCAAATCCAGC
+Seq0      ------------------------------------------------------------
+Seq7      ---------------------TTAA------TAAA--------CAT----TATAGCTATC
+Seq6      CTAAACCGAGGGGCACAAAGGAGACGACAACATAG--------CAACTTTTAGATCCCGC
+Seq2      -------GTAGTGCATAAATGATA-----CCTACA--------CCTATTCGTTGTCCCTA
+Seq4      --------------------------------TTT--------CCTCT---AAGGC--AC
+                                                                      
+
+Seq5      CGTGTGACGTGCTGTACTTATCAGCCAC-----CCG--AG----TTTCAATG----ATAG
+Seq1      GG----CCGGACGGTCACAGGG---------GAGCG--TGAGATTTCCAAGGCAGGA---
+Seq3      TTCGTGTCGAAAGGTATCTAGCAGGCACTTCGCTCG--TGACATTCTCATGGCTTGGTAG
+Seq0      ------------------------------------------------------------
+Seq7      -------------------TACATC---TATTTTC---------ACTCAAGGAT------
+Seq6      -------------------TTCTCC-A-ATTATGCAATATATCTACTCATGACTGGTGGG
+Seq2      -------------------GTCATCCACATTTTGCGC----------CTAG---GTTGAT
+Seq4      -------------------ACCATCCGCATC-----------------------------
+                                                                      
+
+Seq5      TTGAGTAGACTGTAGGCATACACATAATGGAAGGATTTATTGTTACTA-TCCT-------
+Seq1      --------------AGCAATTCCTAA---GAC-GTTCATATTGTCCAAGACCGTTAACAC
+Seq3      AAGCGT------TCAGCAATTGCCC------------AATGGTTACATGTTCATTAATAC
+Seq0      ------------------------------------------------------------
+Seq7      C--------------GAAG-C-CACATTAGTT-TATCACTT-------------TTTA--
+Seq6      T--------------GCAGAA-CCC-----------------------------------
+Seq2      T--------------GAAGTT-CCCA--GGAG-AATCACTT-------------TG----
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      -----ATC----AAGGATCCCAAGCCGGGCTG----------------------------
+Seq1      GACAATTACGGATACGCTCCCTATCCTAAA------------------------------
+Seq3      AT---AACCTCGAACTTCCCAAATCCCGAGTGACTA------------------------
+Seq0      ------------------------------------------------------------
+Seq7      -----ATGCCATTGCGTCCCACAACCGGAGTTACCTTCTTCGTCTGTTCAGTTCGGGTG-
+Seq6      ---------------------------------------------GGCCCAGACTGGTCA
+Seq2      -------------CCGTCGCATAGCCGCG----CCTATGTCATCTTGCCCTTCCTAA-AA
+Seq4      --------------GGACCCATAGCTGGA----CCGCCGGCCCCAATCCATTTCGTATTG
+                                                                      
+
+Seq5      ---AAGAAA---------------------------------------------CCAGCA
+Seq1      --TAA-------------------------------------------------------
+Seq3      --TAAGTAT---------------------------------------------ACAGCG
+Seq0      ------------------------------------------------------------
+Seq7      ----------CT------------------GGGTGGCATGTCAATA---AATACCCAGGA
+Seq6      A-TAGGA-TGCTGATACAC-TGAGGTGTGATCATGACTCACCTGGACC--------AGGA
+Seq2      --TATGTAGAGAC----------------GACGTAGCGAGTTAGGACCGACTATCCACGT
+Seq4      TATATAAATGGTCTTCCACATGAGGTTGATTCGCAGCACGACATGACTGAA---------
+                                                                      
+
+Seq5      CCAAAAG----TCCGAATA-----------GCGTCGCCCCCTCCTTAGTGGGGG--CCTA
+Seq1      --GGATGAAAGGCCAAACA-----------ACTT--CCCAATCAGTAATTGGCGCGCCTT
+Seq3      CAGAATGGGTGGACTGTCA-----------TATTGATCCACCAGGTAGCTGTTTC-----
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------AGAACGCCGGGGACATCGCCGTGTCTTTTACGCAA-
+Seq6      CAG--------------------------GACGTATGCCTCTACGGGTGAG---------
+Seq2      CAAAAA-AATGCCTACATA-----T----------AG---CGCCAGGAGAC---------
+Seq4      --GAAA-GGTGCCCACTCTTCCTATGAAAGAAGCTAACCCCGTTGTGTTTA---------
+                                                                      
+
+Seq5      GAATGTTGACAGATAGTGTAGTTAAACTA-CGTT-------TACAGTAGGGTGGGC----
+Seq1      TTAC-----TTATGAGTGTTGGGGGGCGCA-GGT-------TATAGTATGGTAGTTTCGT
+Seq3      -AAC-----T---------AGAAAGTCACCAGTT-------TATAGTTTCG--GTCTTGT
+Seq0      ------------------------------------------------------------
+Seq7      ---------------------AGAGACTACAGGACCCGCTATAGTGAATGACAGGCTTGC
+Seq6      -----------------------------TCA-AACCTCT------TATAACAGGCTGGG
+Seq2      -----------------------------CCA-T-------------TTGT---------
+Seq4      -----------------------------CCG-T-------------ATGT---------
+                                                                      
+
+Seq5      -CTAACT--GTATAGTGCGACAGGTACAAGATACCCATAGACCCTAGTTCGAAGAGACCC
+Seq1      CTCATCG--G-------TGTCGGGC-----------------------------------
+Seq3      GCCATCG--ATCGT---GGAAGAGTCCAGAATTC----------------AT-CTTTTCC
+Seq0      ------------------------------------------------------------
+Seq7      ---------AAAAGGATA--C-A--ACGC--TAC---------CGTTG--------GCT-
+Seq6      AAATAATACGAAGGAAGAGACAAGCACGT--AAC---------TTCATACACGGATAAA-
+Seq2      ----ATGGCATAAGG----TTAGACACCA---------------GTTTATACAGTTTCTC
+Seq4      ----GTTGCGTTGTG----TC-------A---------------GATTTAGCGGT-----
+                                                                      
+
+Seq5      AGCCTGTC--AAA---------------------------------CGCGATGGGAGCAG
+Seq1      --CCGTTC--TATGG----------------------CCGTCCTCGCGAATTGTACGCTG
+Seq3      TGCCGAAC--TATAG----------------------CAGACACCGCTCGT---------
+Seq0      ------------------------------------------------------------
+Seq7      TG-CAATAC-TAGGGAGGTGTTCAGCAAACCAACACGCGCGCCCCAAAATGCTGTCTAAG
+Seq6      ---CAAAGCGTAAGGGGGCGATTG-TATT-CGTC-----------T--CCGCGGACAAAG
+Seq2      GGCCAAAGCCA--TGTCGCGAGCT-C----------------CCTT--TAGCAAGAGCAG
+Seq4      ----TAAGCCA--TGCAGCAAAAT-TATTATTACAC-CGGGCCCCG--CCACAGGCGCAG
+                                                                      
+
+Seq5      CCACCTAT--TTGCT--ATCACTAACAGGGTTTTAAGTGTACGCGTTATAGCACCGAGCT
+Seq1      TCAAAAATTATTGCTCCAACTCTAATAGTCTGTACTG-GGGTGCGTCA---------GC-
+Seq3      ---------------------------GTC---ACAG-TAGGGCGTTA---------GG-
+Seq0      ------------------------------------------------------------
+Seq7      ACTCTTATTGTCGGAGCACCA------------A------ATG--------TAC-TATGG
+Seq6      TAA-----GTTTG-----------------------G--GGGGCTTATCACTGC-TGCTC
+Seq2      ATA-----CATCGGAGCGACT------------TCCA--GGGGCATACC-TT---AAGTC
+Seq4      TAT-----TT-------ATTT------------TCCA--GGTGTTCCCC-ACTC-TGATT
+                                                                      
+
+Seq5      AGGAGCCACGCAGTTCCATCACACAGTGGCGGTTGCTGCGGGGCAAGCTTACGA------
+Seq1      ATG---CTCTCACATA--CCG----ATAGATGTATAACTGAGGCAACCTATTGACT-TGA
+Seq3      TAGAGTCTCGAACATTCACGG----CTGGCCGGCGAACATGTGCAG---AATGTCGTTGA
+Seq0      ------------------------------------------------------------
+Seq7      AATGGCCACTCCCAT------------------------------------------T--
+Seq6      TAGAGCCACGGTCTAC-------------------------------------ACCTTGT
+Seq2      TAGTGCCA------TT-------------------------------------A------
+Seq4      CAGAGCCAGGCCCGGT-------------------------------------ACGTGGT
+                                                                      
+
+Seq5      -GGGAGTACG-------AGT----------------A---GCAGCTTGAGTTCTCCGCAC
+Seq1      TAAGAGTACG-------TA-TACCGGCAGAGTGGC-A---CCGTCATGAGAGCTCCATGG
+Seq3      TAAGT--CAG-------AAGAGCCCCCTGCGTAGCTA---TCGGCGTGAGG---CCTAGT
+Seq0      ------------------------------------------------------------
+Seq7      -----------------GTTACCACCCTACGATATTACCCTCAGCGCGAGCGCA------
+Seq6      -----------AATGCATATACCAC-------------CTGCTGCACACAGGCG------
+Seq2      ---------------------------------------CACCGTGG-------------
+Seq4      GGAGGATATGGAATGCTT--AC----------------CAGCCGCGACCACGCA------
+                                                                      
+
+Seq5      AGGTGTA-CTGTCTTCCCTCATAC-GTT-GGAGGCGATACGTTTGCATTGAGTGTTTGTT
+Seq1      AGATGACCCCAACGACCATT-CGCTTTCGGTCGT------------CTGGTACGCAAGGA
+Seq3      CTAGGGCCCCG-AGACCTAGTTTATATTAGAAGGC-----TTTAGCTTGATCCGAT-GGG
+Seq0      ------------------------------------------------------------
+Seq7      --------AACTAATCACACCG----------------------ACGGTGTGTGCTTGGT
+Seq6      --------ACATCATCC----------------------------CGATGGACT------
+Seq2      ---------------------------------------------CTATGGTCACTAG--
+Seq4      --------CGCACTACC-GGAT----------------------GCGGTGTTCGTTATGA
+                                                                      
+
+Seq5      AGCCACA------------------------CTAT--AGAGATCGGAGTCCAACTGTATG
+Seq1      GAGCTGGCT----TAA-CTGACA-----ACCCAGGACTAACAACCGTGT--TACCGATAT
+Seq3      ATCCTGACG----TACACAGT-------TACCTGT--TGAAATCCGTTT--TT-------
+Seq0      -----------------------------------------TTCAGAGAACACCAGTTAG
+Seq7      A---------TCATT---AGAATGTAAATCCC-----------T--AGATCACCTCTTAA
+Seq6      ---CCAGCGAACGAAAGCAGACGGAACTACTAGGTG---A-CAAAGGGTCCCACT-----
+Seq2      GTCACT---GGCATAATTA--AGAAATTTCACT------T-TTTAT-GAACTTCTCGTAT
+Seq4      GACCCTGCTGTCAAAGACG--AGG-----------------CATAA-G---AGCTCGTGA
+                                                                      
+
+Seq5      AAGCCAG------CCTACTGA---CTGGGC------------------------CCGTC-
+Seq1      TCGCCGAGCTACGCCACCTACCCCATAGGTTCATTATTACC-------------GCGTC-
+Seq3      TTTACTGGCAC-------AGCTCGTACGGCACACTTTTAAC-------------GCG---
+Seq0      CGGATCGCTAATGCAGCCTGCCT---------------------ACTTTTATAGGCGGCG
+Seq7      ATAAGAATGCGTGCCGCTCTCGTCCTCAGTGTGCGTGTGAC-CCCCTCGG-ACGGCGTCG
+Seq6      CA--CAGTGTAAACCGCCCGCT--CACGGTTGACAACTAATGCCGC--GTATATACTACG
+Seq2      CT--CAGAATATGCCACCCCCTTCCATAGCTTTCG----AAGCCACTCTCTAATA-CTCA
+Seq4      AC--TTGCCGCGGCCACCCCCGCCCCAAGATGG----------CCC--TTTAATA-ATCT
+                .             .                                       
+
+Seq5      ------C-----------------------------------AAGGAACT----------
+Seq1      -----TC-----------------------------------TAGGAACGAG--------
+Seq3      -------------------------------------------AGGATCGTGTCAATGAC
+Seq0      CCATCGCAATATATTGTAGCCATCCTTTAGAGCCACCAAGAATTGAA-------------
+Seq7      CCTACCCCAGG---------------------TCAGCTACTCAAAAATGGGGGCTTTTAC
+Seq6      CCATCTTCCAACT------------------TCCAACAAGATTC----------------
+Seq2      CCATCTCCGAT---------------------CCAGCTGGCCTCGGATG-GTACGAATAG
+Seq4      ACCACGCTGAG---------------------CG-CCAAGCCCT----------------
+                                                                      
+
+Seq5      ----------------------TATGGACTGCCTTAATAAACCTTACCTAGGGTATCATG
+Seq1      --------------------------------------CGTCTCTTAC---------ATG
+Seq3      --------------ACCT----ATTGGACTAAATAA--CGTCTTTACCG-----TACAAC
+Seq0      ------------------------AGAGCAACGAATCTAGGCT--ATGTTAGCTTA-AGA
+Seq7      TTT-AGAGATAGATACGTAAGAATATGTC----------GTCG--AAT-AAGGTGGAGTG
+Seq6      ----------------------AT-------------------------TGGGTGGCATA
+Seq2      TTTCCGAAC----ATAGTATTAAAAGGGCAATGATTTTATTCG--CTCTTAGGTTGCACG
+Seq4      ----------------TTTTTAA----------------------AATCTAGGTTACAAG
+                                                                   .  
+
+Seq5      CTCGAGGTGA---GGAAGT---TCGAGTGATTTATTGGGCCGTTAATCTC----------
+Seq1      CCGGAAGACGTTTCA-CGTACGTTGTAGGATGGGATCTGCCGATACTCAATTCA------
+Seq3      CGCGTTGTAGATTCAACTTATGACGAAGAC-AAGCTTGACCTAACATCTATACT------
+Seq0      CAATCCGTG-------------CTGCTAAAATGAT------------------------A
+Seq7      AT--------------TGCAAGCTATGTGGTTGTATATACCTATTAAACTATCGTGGGCA
+Seq6      CAATGTGAG-------CACCTGCTTGAAGCT-----ACCCCATTT--CC---CA-CGACA
+Seq2      GTGGCA----------CATAATCTACGTTCT-----AATCCCATT-GCGAATCG-CAGCT
+Seq4      AAAGCCGTG-------CGCGTTCTGCGTAG-------CTGCATTT-GCGATTGC-CGACC
+                                                                      
+
+Seq5      -----------------------ACACCCACGGGT----CGGGAGA--TCTTGTGC----
+Seq1      --------------TAGATGTCAATTCCCG--AGTCCGTCAGGAGA--AAT--------G
+Seq3      ------------------------TACCAGCGATACATTTGGGAGA--AACCGAATTAAA
+Seq0      --------AAGGAAAGGACT--GATTTCCGCGGGCTGATGTTGGGGATTATTAAGAAGAT
+Seq7      TA------TCAGTTTGGATG--GATCCACGCGGACAAATAGGAG--------GTGGTGAA
+Seq6      AGGGAGCGAACGTCT----G--GCCCGAC---AGCGAT--------------GAGGCGCT
+Seq2      TGTCAGCGAACGTATTGGTG--GCTTGCC----GTAAT-------------------GAT
+Seq4      CCGCACACTACGTTATGATG----------------------------------------
+                                                                      
+
+Seq5      CTGGAGCTCTACTTGCAT----------------------------GGCCCCCTAATT--
+Seq1      TTAGATAT-------CATCTCACGGTGGGTG---------CTGATATGCC----------
+Seq3      AATGATTACTAAATGCATTACAAGA-----A---------ATGACGAACCACATTAATCT
+Seq0      TCGGTGAT-----ATCGTTACGTGGAGATTTTCGTGCCTGATACTCGTCCAGTTCTA---
+Seq7      TCTGTACG-----AAC----------------------------TTGACCTCGTATGGCA
+Seq6      TTGGAAAT-----CAATACTCA---------CCGGTCTGACTGCCCGCCCCCGAAATGCT
+Seq2      TCCGAAAT-----ATCGATTCA---------ACGGTCCG---------------------
+Seq4      -GGGATGG-----ATCGGTTCT---------ACCAA------------------------
+             *:          .                                            
+
+Seq5      -C--------------------TAG--C-TC-GACGCGCCTGT-----------------
+Seq1      -C--------------------TAG--C-TTTCCTGCACCGTTCTCAC------------
+Seq3      TC--------------------GAA--C-TTCCAAGCGCCGGA-----------------
+Seq0      ------ATAATTAACGGA----------------ATAGCCGGTCATCTCGAGGGCCAAAA
+Seq7      GTTGGTTGGCTTCTGGGAT-----------CACCGGCACCGGTTG---------------
+Seq6      GCCAAAAGTGTTAACAAGTCACGGGCGCTTTACCGAAACCGGACAAAATAGTGTCCTA--
+Seq2      -----------------------GCCGCA-------------------------------
+Seq4      -----------------------TGCACT-------------------------------
+                                                                      
+
+Seq5      ---------GC------------------------------GTACTTCTAA---------
+Seq1      ATCGTAAACGCG----------------TTGGCTGCACTCTG-GCTCCAGT---------
+Seq3      --------------------------------TAGCTCAGTGGGCGTGACG---------
+Seq0      TGCATAAACTCTATGATATC--ACAGTGGTAGATAGATCCTGGGGACCGT-AGAG-----
+Seq7      ---------------------------------TACACAATACTCGCCGGTTATGTAGAA
+Seq6      -------ACAATCAGATTAGAGACTA-GTGAGGTTCACCCTT--------GATATCAACG
+Seq2      -------------------------------GGAACACCTTCTGCGCCAAATGTACGGTG
+Seq4      -------------------------------GAATCAACCA------CA---AATCGGCG
+                                                                      
+
+Seq5      ----------------------------TTTTTCC------------------------T
+Seq1      ----------------------------AGGGGCC------------------------C
+Seq3      ----------------------------TGGGTCC------------------------T
+Seq0      ----CCGTTGCTGGACCACGGGCCTG-GGGAGTCTGGATA-TTTATGG--------CACG
+Seq7      TATACATAAACAAGACGTTGAAA--AAGATTATCCT------ATGTTCTCTGCGGCTGCA
+Seq6      ATGCCTATCGCCGGACAAGCACCCAACTGGGTACTGATCA--TGATTGATGCCAGCCGAT
+Seq2      AAGAACGACGCACGTCGCATCCTAGTAGTAGAGCCGAAAAAAAAGTAGAACCCAAT--CT
+Seq4      --------------ACGTTGCCCCAAAAAGGAACCC--------GTAGAGAGCTGA--CT
+                                           *                          
+
+Seq5      CAAGCAGACGAGA----------------------------------------ATACTAC
+Seq1      CAA-------TGA----------------------------------------CTTCAGC
+Seq3      CCA-------GAC----------------------------------------ATACGCC
+Seq0      CCAACTCACATGTACTCTACTACA--CTACTCGTTAATCAAGTAGACCTTCGAGTGCGCC
+Seq7      CCTACATACC-GT---------CGAAGCTCTGGGTCCATTACTTACCCTTCGTAAACGCC
+Seq6      CCTTCGTCCC------------CGTCGCGCACGATC----TCATAACCTTCTAGTCCA--
+Seq2      ACTTCGTACA------------TGCCGCACACGAC-------GTAACCCGACAATGAG--
+Seq4      CCTCCGGTCC-GTACACTCTAACGACCCACACGCC-------T-AACCAGACTTTCCG--
+          ..:                                                   : .   
+
+Seq5      G-------CGTCGGCCGGAGTCTTGCCTAA------------------------------
+Seq1      T-------AGACGTCCCAG------CTTACA------------AAG--------------
+Seq3      T-------TGGCGACCCAGGCCCAGCCCAGA------------GTGCGGAATGCGATTTA
+Seq0      ACTGCGGTCAGCACCCCAAGTCATAACTAATCAGCAGCGCTGATCTCGGACTGATCAT--
+Seq7      AGA--AAACGGCTACTA-------------------GCGTTCCCCT-------AG-----
+Seq6      ----------------C-------------------GCATTGCACC-------CT-----
+Seq2      ----------------C-------------------GCGTAATCTG-------AA-----
+Seq4      ------------------------------------GCGT----TG-------CG-----
+                                                                      
+
+Seq5      --ATATCTCTGCCCACCGTTCTTGTGCGTCCT--------GCGGCCCTTGCTAG--GGC-
+Seq1      ----------------CCTACTATTGCCTAAT--------C-----ACAGCAGG--GTC-
+Seq3      TTGTATCCCACCTCACCCCTCTAAA--GTAAT--------T-----CCTGCCGG--GGC-
+Seq0      ---------------CCACCCGAAAGGTTACGCTTGTTCCGT---------TTCGGGGCC
+Seq7      ----------------CGTTTAAAGGG-TTCGCTTGCGTCTGGGCAACTGCGG-------
+Seq6      ----------------TATACACAGGCAAAACCTTGC-----------------------
+Seq2      ----------------AAAGCAAAGACAGATCATAGTTACTAGGTAACCGCGGCGAGGCA
+Seq4      ----------------AAAACGATGGCTGATGATTGTCC------GAACGCTGTGAAGTA
+                                                                      
+
+Seq5      ------------------------GGGGCAACTTGCCTGTATACTCTG------------
+Seq1      ------------------------GC-CCCAC-----CGTATGAAGCGT---GGAGATGG
+Seq3      ------------------------AC-TCGCCTAGCTCGGATGAATA--------AAAGA
+Seq0      CAACGAAGGTTCTAC-----T--CAT-----AAAG-----CTACTGTGCAAAAAGAGT--
+Seq7      ---------ACCTACCA--TTCCCTCGTTGTCCAGC------C-GATGGACTCGGTGAGG
+Seq6      --------------AAAAACTCCCT--------CGCTCAAATCAAGAGCAG-CAAAG---
+Seq2      A-GTTATGGAACGCTAATGCATCCGA-GCGTCCCGGTCTACCCCATGGTTGTAGGAGAGG
+Seq4      ---------ATCAC----------AT-ACGCCCAGCTGAGCCTCATAGTTAA--------
+                                                                      
+
+Seq5      AAGTGCCGGC---TCCGAACTGAAATG--AAATAGGG--TCTTCCTTTGCTGGTGCAATA
+Seq1      ACTCACCCGATGATTCCGTCTCGTGCGTCT--TTGGG--TCGCC----------------
+Seq3      TAGCGCCTGCTGCTCC----TCAT-TGTCATAATCGG--TCACA----------------
+Seq0      AAG--CTAAAACGGCCGTATGGGA----CACCATGAGTATATTCCATAGTACCAGAA---
+Seq7      GAGGCAGTAATGCGCCGTTGTAGC---------------------TTCGTACGGGGA---
+Seq6      -------AGATGTTCCGGATAAGA---------------------TACGT---A------
+Seq2      GGGTCCCCGATGAGCCG-TCGAAG---------------------TTCTAACAA------
+Seq4      -----CCGGATGTGCCTGACGTAA---------------------T-C------------
+                  ..     *      .                                     
+
+Seq5      CCAGACTGCACTAATTAGTT--TTCTCATCTATTGCGGGCAGCAAGAAGCGTT-AAATAA
+Seq1      CCCGCATTCACTAAGCAATAGGATCCACCCT----AGGG---------------------
+Seq3      --AGATGACCTTTAAAACTGACATATAACCT----CGTT---------------------
+Seq0      -----TTTCCCAAATGTTAGC--------CTAGCGCTGACTA--TTACTCGGAGTCATAC
+Seq7      -----TTACCCAGACGAGTA-CCACTTTGTCTGAGCTGAGAT--A--CACCTC-------
+Seq6      -----ACACGCGGGAACTAGAGTA----------------G-----------T-------
+Seq2      -----ATGCGCGGAATTGTGACTACTAT-CCCGCGCG---T-------------------
+Seq4      ------TACACGGAC--AAGGCTGCTAT-CTAACGCG---GT--A--AACGAC-------
+                  *    .    :                                         
+
+Seq5      AGATGT--CTCGGATTGTCCGCCGGCGCAA-----CGGGGAATCTTTTGATGCCTCGCCT
+Seq1      ---CGT--CTCGAA------CCCGGCGCTGTCAGACAGGA--TAATTATAAAGGGCGC--
+Seq3      ---CGC--CTCTAT------ACCCT----------------------ATATGCTACGC--
+Seq0      TGTCGCAGCGCAATGATTGCTACAGCGGGTGGCG------------------AA------
+Seq7      -------GTGCAA--GGGCCGTCTGCGTGATGCG------------------GAACGCTA
+Seq6      -------GGTCAA--A-----ATTGCGA-------------------------CTCG---
+Seq2      ------------------------ACGA-------------------------CAGG---
+Seq4      -------GGTCAT--CTTCCGCCAGCGG-------------------------TGGG---
+                                                                      
+
+Seq5      TGCAACA---CGTTAGTGCATTATTAGGAAATGGGCTCAATTGATGCTTGAACCT-----
+Seq1      ------------------------------------------------------------
+Seq3      ------------------------------------------------------------
+Seq0      ------------------------------------TGTTGGCAGCCTG-GGGTGTGATG
+Seq7      TACTCCCTGACATCACCGCAGTCTTAGGGTATGGGCAAATGACAACCAA-GTCTGGGGT-
+Seq6      --------------------------------------------AACA------------
+Seq2      --------------------------------------------GCCA------------
+Seq4      ---------------------------------------------ACA------------
+                                                                      
+
+Seq5      ---AGGTGGC-------CTTAGCG-----------------------------------A
+Seq1      ------------------------------------------------------------
+Seq3      ------------------------------------------------------------
+Seq0      TATCGGATTCCGTTCGGCATGGCCC-----------------------------------
+Seq7      -----GAAACCGAACGGCATAGTGATTGATTCATAACGCAACGATTACACTAGAGATCCC
+Seq6      ------------------------------------------------------------
+Seq2      ------------------------------------------------------------
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      ATGTGCGAGGGGCTCAGCCGCACTG-------------CCACGGTTGCGCCACCTGAACC
+Seq1      ------------------CGCGCAC-------------TCTTA-----------------
+Seq3      ------------------CGAACAC-------------CCAAAAA-----CAAAAGA-TC
+Seq0      -------------CA----------TTATG------------------------GGCAAC
+Seq7      TTGTGCTATGGCCTTAACTGCACAAAGTTAGCCATCGGCCAAATTTTATCGAAAGGTAGC
+Seq6      ------------------------------------------------------------
+Seq2      ------------------------------------------------------------
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      TGAACC-----------------ACTCGTGCGGCAACGCCTCACTACATACGAA----AC
+Seq1      ---------------------------------------CTCACTTTACGCTATAA----
+Seq3      TTACCC---------------------ATGCGC--ACAACTTTCTTATCGCTTTCCTTAT
+Seq0      GTTCCTTGTGGGATTGTTGGAGAC-TAAGTTGC-AGCTTCT------ACACATACCAACA
+Seq7      TTTCCAGACAGGAAAGAATATGATCAAGGGGGCCATCAATT------T----TTCTAAAT
+Seq6      ------------------------------------------------------------
+Seq2      ------------------------------------------------------------
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      CTGT-----------AGTGTGCCCATACACTGTAATGGCTGCAGGAGATAGGG-------
+Seq1      -------------TTCG---------CC--------ACCTGTT-----------------
+Seq3      CAGAGATAAAATATTCGCTCAACCCTCCACTGTTACGCCCGTT-----------------
+Seq0      CCAGGA----GCAT---------------TAGCGTCACCCGACGATGCACGGGACCGTGG
+Seq7      CACAGC----GTGT---------------CTGTG-------TAGCTGTGCGTACCCGTGG
+Seq6      ------------------------------------------------------------
+Seq2      ------------------------------------------------------------
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      TCCTGCGGCGGAACGCAC--CGCCTTAAGTCGAGTGCTTGCTCACGAGGGT-GTAACG--
+Seq1      -----------------------------------------------------AGACG--
+Seq3      --------------------------T--------------------------GGACG--
+Seq0      GC----------------------------------------------------------
+Seq7      ACCTTCTACGAGATACATCACACCTTTGAAGCTTATCGTGCCTACGAGGGAAATGACGGA
+Seq6      ------------------------------------------------------------
+Seq2      ------------------------------------------------------------
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      ---------------------------------------TAGC-----------------
+Seq1      ---------------------------------------TCTT-----------------
+Seq3      ------------------------------------------C-----------------
+Seq0      ----------------------------------------ACCGGGCCTCACAAACCCT-
+Seq7      GCTTGATGCTACTATCGGACAGATCTACAGTTAGGGTAGTCCCGATCATCCACGTCCCTT
+Seq6      ------------------------------------------------------------
+Seq2      ------------------------------------------------------------
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      --------------GTTTCTCGA---GTGCAC-----------------CATAAATAGTT
+Seq1      --------------TGAACCCGT---ATACTA-----------------CT---------
+Seq3      --------------GGTAGCCGA---CTACAA-----------------AATA-------
+Seq0      ACTTATAAGCGGGCTGTATACAAGGATAACGACATGTGTCGTACCTCC-----AT----A
+Seq7      ATCTGTCGCCGGGCGGTAGT-------TACTACAAGGTGCTATCGTTATATTAAAATGTT
+Seq6      ---TGTCACCGTGCAGTTT-----------------------TC----------------
+Seq2      ---AGACTGGGCGTG---------------------------------------------
+Seq4      -----TCAGTGAGTTATTG-----------------------TC----------------
+                                                                      
+
+Seq5      AGCGTTTGAGTTGC-------AGTCTC----------CA--GTTA---------GGATAT
+Seq1      ------------GA-------AGACCTATCCTAGCGACA--GGTA---------AGATGC
+Seq3      --------TGTTGC-------GGTCCGCTGACTG----A--GGTG---------GGACAC
+Seq0      TGTATATGGGGTGGGAATGGGAGCT---TACCTGACACACTGTCAAACCTCTCTATTAAT
+Seq7      GGTGTTTGGAGTGG-CCTGGTTGCCACGAACTAGAATCTTGGGCCCG--GCTCAACTCGT
+Seq6      ------------------------------------------------------------
+Seq2      ------------------------------------------------------------
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      -----------GACCTTTCAGTTGAT---ATAACCCACG--------A----ATTGCACA
+Seq1      AGCTA-----------------------GTGAACACTCG--------A-----CCGCACT
+Seq3      AGTAG---GATTACC-GACAAATGATTTGAGATCAAGCA--------GTCTCTCCGATCT
+Seq0      AG--------------GTACG----TGGGAGCACGACCGCGCCCCGTAACCCCTCTCGCA
+Seq7      GGCTAGAGGGCTGCCTGTACC----TTGGAATACGCCCTGGAAATGGGCCACCCC--ACG
+Seq6      ------------------------------------------------------------
+Seq2      ------------------------------------------------------------
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      AAAGCAA-TCAACTG----------A------GTCTTGC---CCCTGCGAGC----ACGT
+Seq1      AG-------CAGCTGCTGTA-CATGTATAATATTCCAGG---CACT-CTTGCTGGGGCGA
+Seq3      AACGCAAAACAACTCCTAGC-CTTGTGCTA-------TG---CTCAGACTGCAGTGGCA-
+Seq0      GAATCGT-TCAACAGCTTGTTCAAGAT-TTTAACCTATCCAACTCATCACTCTTTGG---
+Seq7      GGTGCGA-A----------------AT--------------------TTCACTTCGC---
+Seq6      -------------------------------------------------------GT---
+Seq2      ------------------------------------------------------------
+Seq4      -------------------------------------------------------GA---
+                                                                      
+
+Seq5      C-TCTT-TTAGGTCGGTAGG----AGCCATG-GGCGTATG----GCCGCGGCCTCCAGAG
+Seq1      CCTCTATGTCTGTCGATCGA-------GAAA-G-CTCAAG----GTC--G-C-ATACGAC
+Seq3      ----------CGACGTACCA----AGACGTA-G-CCCCGG----TTC--TGG-ACAGGAC
+Seq0      -CACAATATTTAACAATCCATACGAGGACTGCCGCTTTGGTGTTAATGCAGTCCTCAGGG
+Seq7      -CTCATAT-TA--------------TGCATGCACCATCGG---------TACCAACAGGT
+Seq6      -TTCAAAG-CT--------------GACATGCGTCT-----------------TACGGGG
+Seq2      ------AA-T--------------------------------------------------
+Seq4      -ATCTTAG-T--------------------------------------------------
+                                                                      
+
+Seq5      AGGGACCTTATA-----------------TATCAA--TGTG-G-----ATGGAAAT---G
+Seq1      GGAGAGCTTCGT-----------------AAACAT--AGCG-TTGCGATTAACACT---G
+Seq3      TTGGAGCTATCA------------------GTCT----GGG-TAG--AAAGGTTTA---G
+Seq0      TGTATGCAGTTACCATAAAAGTCCAAACCCATCACATAATTTTACCAATTGACTAA----
+Seq7      TGGGTGCTAATAATCGGAATGGCCAGCGGGAT----------TACTGACAGATATATACG
+Seq6      TGAGTT------TC----CAGTCCAGATTAGT----------GCCTGACTGGCTCGAAGG
+Seq2      -----------------------CTGAT------------------GTAT-GCTCATA--
+Seq4      -----------------------CTGCT------------------GTCA-GTTAATTCG
+                                                           : . :      
+
+Seq5      CAA--GCAATGCCTA--------------------------TCAGAAG--TGACTTCCCG
+Seq1      ATT--CCCGAGCAG-TGCTTGT--GTGCTATATGC-TGAAGTATGCCG--AGCGTTCCCG
+Seq3      GCT--CCTGTTCCAATATAAGAGGTCGCAGAACAC-TAACTTGTTCCA--GGCCTTCCCG
+Seq0      TATTCCCAGGT-----AAAA--AGGTGATAAGTACAACAAGTATTTCGTATTTCTACTGA
+Seq7      -----CCTGAT-----GCGT--GTGTCCTTCT--GATTATGT-------TTGT----CG-
+Seq6      ACACCCCTCTT-----TCAA--AGATCCGAAA-------TGT-------CAGAGATCCCA
+Seq2      TAT-------------TCAA--ATGAGCGACG--GTACAGGT-------CTAATA--CGA
+Seq4      GCT-------------CCAA--TTGTGAGGAA--A-TCAAGT-------GTATACAGTCG
+                                                   *                  
+
+Seq5      CATCAATCAG-----------------CGCCATCGATTCTTCTGCG-AGAACAGACGCTC
+Seq1      CTCCC--GGGGGAGCATCCGT------CGCATGCGTT-ACGA--CGCAGTA-------TA
+Seq3      GACTAAACGGTAAGCAACCTT------CTACTGGATT-CCCCTGTACAGAATGAACTCTG
+Seq0      GGTT--------AAGGTTCAGTGTTA---------TTTACACTC----TTACTAACACTC
+Seq7      ---C-------GAACGTCCA--CTCGGCCCTTTCGTAA---CT-----GAACTTACTCA-
+Seq6      GGAC-------GTACGACCTT-------------------CCTG----AA-CCTACCTT-
+Seq2      GGTT-------TTACGTCCCGAGTCTTTCCC--AGGAAATCTAG----GTACTAACCCT-
+Seq4      GATT-------TTGCGACTTGACTCAACCGCTTTGAGAATCCAG----CTTCTATCATA-
+                                                           :        : 
+
+Seq5      CTTCTGCGTGA---------------------CGAGCATCAGGTCAGACTAAG-ATCGGT
+Seq1      CGCC---------------------------------AATGGGT----------ACCCGC
+Seq3      CTCCTGAAAGG---------------------CCGGCTTTAG-A----------GAGGGC
+Seq0      TTCCAGTTGGAATCGTAGCCCGGTGTGCTTTTTCGACTCGGA------------------
+Seq7      --CCGGCGGTA--------------CGCAGTG---------------CCTCCCGATGTTC
+Seq6      --ACGGCAGGA-------------TAGCAGTCACAGC----GTACGGCCTCAG--AGTCT
+Seq2      ---CGTAGCGAGTAGG--------GAGACTTGTAAGCCATGGTTCGACTGCGCAATTTGT
+Seq4      --ACTAAAGGTGTCGG--------GTGAGTACACAGCAATGATACGAAC------ATAAT
+             *                                                        
+
+Seq5      CCCGAAC------------------------------TTCGCGTTT--------------
+Seq1      CCCGTTCT-------CGCC------AGCCGCCCG-----------TA-------------
+Seq3      CCCGTCGG-------AAACAGACGGTGCCGCACGCTCCCCGAGTGTA-------------
+Seq0      ---------ACAGGCCGCGATCGGGCTCCGTCCCCGTAGAGTGAGCGCAGGGCTATATCA
+Seq7      CGCGTACATAAGGCCCGCGTTACGGCAC-------TCAGTATGATCTCAC---TATTTCT
+Seq6      TCCCCACATTATACCCGCAATCGGTAGC-------T---------C--------------
+Seq2      ATCCTG--TGTTTTCACCAGAAGGGCGC-------GAACAGTGAT---------------
+Seq4      TCCGTA--TGATGGACGCTGGATGGAGC-------ATAGAGATAGC--------------
+                                                                      
+
+Seq5      ---------------------GCTCTGAATCCTGGACACTCTCCCTGACGCGTTTGGGTA
+Seq1      --------CCGGCCTAT-GG-ACCTGGTTGATGGAACGACCTCTCTAAGGCGTCAGGTAA
+Seq3      --------CTAGCTTCA-ACTGCCAGAC-TACTGGGCGCACTCTCTGCAGCT--GTGTTA
+Seq0      ---------CTGACTAGGTCATCA-TAG-GTCGAGGCTCAC----G---CCATC------
+Seq7      AATTCTTACCAGTCTGA-AC----------------------------------------
+Seq6      -----TGGACTGTCATT-GCTCCTG----TTCGATGCACTT----G---ACGTCCAAAGA
+Seq2      ---------CTGTAG---ACTGCAAA----GCGAGGGG-------T---TCGTCTGGGG-
+Seq4      -----TAACCAGTCGAT-ACTGTTAAGA-ATCCATGGT-------A---GCAGC-GGGG-
+                                                                      
+
+Seq5      GG---GACTCCCCCGCCTTCCCTCCCCTCAAAAAGCGCACACGTTTCTCCAGGAGCGGGA
+Seq1      TA---------------------------------------------TCTTAGCTCGAAA
+Seq3      --------------------------------------------------TAGCTTGAC-
+Seq0      ----------------CGACTCAGCGGTCATTACTCGACTG----CGACCGTGGTAGGGA
+Seq7      -----TACGCATCGGATAAATCCCCGTCAA---AGCGTATGGTATCCTAAAGGGTAGAGA
+Seq6      CGTAAACAGCATCTCGCGACCCCCAGCTCA---CTTGGTTCTATG-----ACGTTTT---
+Seq2      AGATCAACTGACTGGACGTCCCCCAGGCCA---TTCGGACAGG---------GTTATA--
+Seq4      AG--TAAATCTCAGTATGGCACCCAGGTCA---CTCGTTAGGATG-----AGGGTAGG--
+                                                              *       
+
+Seq5      G------------------CG-GATAATCTACT-------AC-AT---------------
+Seq1      G------------------CT-GATATTTAGAG-----------G---------------
+Seq3      --------------------T-GATTTATGACG-----------T---------------
+Seq0      GGGGGAAC--------------GGGGTACGGCTTACGTGTACCAGGGCATCGGCACCGGA
+Seq7      CGGTTCCC------GAACGCTGGGG-ACTTGCCGTGGGTTAC----------ACCACGAA
+Seq6      -------------------CTGGGGATATCGCTA--------------------------
+Seq2      -AGAGCCAGGTGTAGGGTTGTGGGGGGTAGACA----GCTT---GA-------AAC---A
+Seq4      -GGATCAACG----------AGGAGGTTTCGCCCATGGCTTCCATTC-----CCACCGAA
+                                *.      ..                            
+
+Seq5      ------------------TCCTTGG---------------------GCAGTGC-AATGTC
+Seq1      ----------------------TTC---------------------GCGCAGCGGTGGTC
+Seq3      ----------------------GTA---------------------GCGTCCC-GTGGAC
+Seq0      ATCGTGAATGAAT-------C----ACCCG----------TAACTAATAAGGAA--TGTA
+Seq7      AGAAT--AGGTCTTTTGGTCCACAATCTTG----------ACACCTGCGTAGAC------
+Seq6      ------------------------------------------------------------
+Seq2      AGTGGTGAAATGTAACTGTACTTAAGCCCGGTGAACTCTTTAACCTGGGCGGGAGTTGTC
+Seq4      GGTGGGGCAGTCTCGTCGTTCAAACGCTAAATGTA--------GTAGCGAGGAACATGTC
+                                                                      
+
+Seq5      CAGCTCCATTTGGAATAGT---------------------------T-TACCCATCTGA-
+Seq1      AAGTTATAAATTGCGGAGATTTGG--------ACCGTAG------CTTTCCTCATCATTG
+Seq3      CAGCTCC----AGCTGATT---------------------------TTTCCT-----GTG
+Seq0      GCTG---TATGGGCGAGTTCTGGGGAAC------GATAGCC----TATCCCAGTACAAAG
+Seq7      -------TTAGGGCGAGT-------TTCCGGATTCTGT-----CGTAT----GTC-G---
+Seq6      ------------------------------------------------------------
+Seq2      CT--------AAGCGAGTTGTGTGTATGAGGCTACATAGCTTCCTTTTACCACTC-A---
+Seq4      CTGC---CTTTGGCGGAC-------AGGCTGTTTCATTGCCACCTCTT------------
+                                                                      
+
+Seq5      -ATAGTTG---ACACAAAAGGATAGGTAT-------------------------------
+Seq1      GATCTCAGA---CACTATCAT---AGAATTT-----------------------------
+Seq3      T--AGCAGGAACCACAAACCGCGATGTATTC-----------------------------
+Seq0      TATTACATACTAAACATATAGCAGCGAAGGTGAGATTGGAGTGCACCTTA----------
+Seq7      -AGCTCATAAGATACAAT------TG-----------GAGGCGCTCCTCGCGAGTAGCTT
+Seq6      ------------------------------------------------------------
+Seq2      -TTCTCTAACTTTAAACC------TTGAGTTGAGCAAGGGACGGGCGTCGCGCGTCGATT
+Seq4      ---CGCTGATG-----AC---------------GACTGTTCCGTTCGGACCCCGTCACCC
+                                                                      
+
+Seq5      ----GGGCGT--TG-CA----CAAGTAGAGATGCGTG----TGCCACAAGCGGGAAGGTG
+Seq1      ----ATACGGTGTGTCTATTTTATTACCCATA----------GCCACTAGCG--CAGGTT
+Seq3      ----TCGCGGGTAGT---------ACTCCGATGCGTT----ATACGCTAGTG--AAGGTT
+Seq0      --------------------------------------------CGCCAGGTG-TTTG--
+Seq7      AA---------GGGACAT------------GAGCGTG-------CGAACAGTA-TAAG--
+Seq6      ----------------------------------TAGATAACGTCGCCCGGGG-TAGT--
+Seq2      A-----AAATTTAGCCAACAGCAA------AATCTGGTTAATGCCGCCCTATG-CAGT--
+Seq4      ATACAAACGTTAAGA------CAA------GATCTTGT--AATCCGCCTAGT--------
+                                                      *..             
+
+Seq5      GACACTTTGTA-------------------------------------------------
+Seq1      GAATGTGTGTTATTTACACCGG-----------------AACCCTGTA--G-----CACT
+Seq3      GTCT-----------ACTCATT-----------------AAAAAAGTG--GAGGTAGTCA
+Seq0      -------AGT---AA-------------------------------------TATGCT--
+Seq7      ----ATGGGC---ATACTCCAGGCCTCGGCGTTCTGATTATAGAAGAGTAGGCTTGCCGC
+Seq6      --ACCAGAG------ACATCGA--GTAATTGTCCA-----TAGTATTAACGCTGTGCTGC
+Seq2      --TTAGAACT---AATCAACTTGGCTCGACGCCCACCT--TAGAAATGCCAACATGCGGT
+Seq4      -------------------------ACTTTGACCACA--------------AAGTTCAGT
+                                                                      
+
+Seq5      -----------AATCG-------------------------GGATA---TGTCCA-GGCC
+Seq1      CAGTGGGAG--TGT-----CGCATCC----ACCTAGCCATAGA---------------GC
+Seq3      CGGCTAAGG--AGTCGGAGCTCAATC----ACCATTACTCGGTATTCTGCCTCCC-TGAC
+Seq0      ----------------------------GGATCCGT----------------C-CTCGGG
+Seq7      A----GTTGCTAATCCGAGCGTCAT-----------------TTTGCGGAGTCCCAGGA-
+Seq6      ATGCGGGAAT--AGCA-AGCATAGGTAAGAA-----------------TTG-GCCTCGGG
+Seq2      GGTCTTGTTCGTGGTATGTCAGAGACTAGAGACTGTCC--AGATTGCTGCGGCCTACGGT
+Seq4      AGGCGGATGCGGGGCAGGGCGTAGTTCAGC---GATCC--GCAATGCGGTGCGGTAATGT
+                                                                      
+
+Seq5      ACAGCTG-------TACGCATCTCCATGATTTTACTC--TGTCGAGTTTATTATGGCGCG
+Seq1      GCTGCAG-------TTCACGCCTC---GATCTAGTAC--AGATGAACGA-ATAGG--TCG
+Seq3      GCAGCTC-------GTCGTTCCTC---GCC----AGC--AGT------------------
+Seq0      GCTACCGGTT--TAGTCATTCTACCAAGTATTAGATCAAAGTTTCATT----------TA
+Seq7      ------GGCAACT-------CTGCCTATTCGAC-ATC-------T---------------
+Seq6      CCCACAAGACACATGCCTAGCGGCCGATATATC-ACT-----------------------
+Seq2      CACGATGGTATCGCGTACGGCAACCGGGACATC-ATG--AGTTTAACG----------TG
+Seq4      CCTACTAGGATCACGTC-------------------------------------------
+                                                                      
+
+Seq5      CTTAACGTAATATGCCGAGTATGCGAGTGCGGCAGAA----------------GACGCGA
+Seq1      CTT-------------------GAATGATAGGCTGCTCTACCAAGTGCACGCCTT-----
+Seq3      -------------------------AGTTCAGTTACTCTTCCACCCGCGCACCGACACCA
+Seq0      AA----------AGCG--------GTTTGCAGCTT----ACTGCCTTC-GACCGAA----
+Seq7      -------------ACG--------GAGAATGATC-------CCCCTAC-GACCAAGGCGG
+Seq6      --------------CT--------GACTT-GGTT-------CTC--------CATCG--G
+Seq2      CA----------TATA--------GTATG-AGAT-------TACAGAC-GACCGTCT--G
+Seq4      --------------AG--------GTATG-GGCA-------CTTTTTC-GTCCGTCT--G
+                                   : :  ..                      :     
+
+Seq5      TA----------------GT-----GCCTCGCCA-------TGAGCAG-------G----
+Seq1      ------------------TG-----TCCAC------------GCGCAT-------ACTGT
+Seq3      AT----------------TT-----GCCCA------------GCGCAT-------ATCAA
+Seq0      ----------------------TAAAACTCCCCCCGTT---TGG------GGTATGACA-
+Seq7      GTTTCAACAAACTTCGAAAATCTTTTCCACCCACAACGGATTTGGCTGATCGTTTGAAAT
+Seq6      T-C---ACTCTCATAG--GGGGCTAACCTCTCCCTATT--ACGAGCA--TAATAAGTCAT
+Seq2      A-----------------------------------------------------------
+Seq4      T-GTTACGTCTGCTCG--GGGCCTAGACACCAAC-------CTAGCT--GCGTTTGACAG
+                                                                      
+
+Seq5      ------------CGTT-TCTCAGCAAGCTAACTGATACCGGAACTAGATACTGGGC----
+Seq1      ------------CGAAAAGTTGAAGAGCATGGTGATTACAA-CTTGGATACCGTAC----
+Seq3      ---------------AGCCTTAGAGGGCATA-----ACC---------------------
+Seq0      --------------A---CTTTGTGGT----GAGTTAACAGTT------------CGTAC
+Seq7      GGGATGCT---------ACAGGGCT------CATTAATCGGTA--AGAAAATGTGCGTTC
+Seq6      CGGCGGATATCACACCGGCTATG---------AG------------------TTGCACGC
+Seq2      --GCG-CAATAACGC---CATGGCG------TAT------------------GAGCCCGG
+Seq4      T-GCG-TTGTCTCGA---CTAG---------CAG------------------ATGCCCGG
+                             :                                        
+
+Seq5      -ATGTG--------ACCGTTATATTCT---------------------------------
+Seq1      -TAGTT--------GGTGTGACAGTCA---------------------------------
+Seq3      ---------------------CTCTCG---------------------------------
+Seq0      GTAGA-------CTAGTGTCATAGTC---G--CCCTACC-AACAGAAACCATC----T-C
+Seq7      CGTGATAGATTTAGACAGGCATCGTCAAAGCGCTCCACAAAACAGAATCCAAAGGTCT--
+Seq6      ATAG---------GTGGAGCGATCTCTA-GATCTGAACTATGCAGCTGCCTATGAACATT
+Seq2      CG------------TCGGGC----------------------------------------
+Seq4      CT------------TGAGTCAAAGTC------------TTGCGAGCTGTCACTGTTCCCT
+                                                                      
+
+Seq5      ------TGAGCCTCCCTGTGCTT------G------------------------------
+Seq1      ------ATGGCTCCATATAGCGATG----G------------------------------
+Seq3      ------TAAGCTCCACATTGCTATCTTAAG------------------------------
+Seq0      GTTCATCTGGCTACGTATTT------------------GTCCCAC-GCA------ATCCT
+Seq7      --------------------CTACCAGGCGATT-----ATCCCGTTGCTTAAA-------
+Seq6      GGCTAATTGACTCCCTTTTTCTTTCTGGGGTTCACCGTCACCTGTGGCTGTACCGTTCGT
+Seq2      ----------------------------------------CCTACCACATT---------
+Seq4      GGACCGATG-------------------------------CCCTCGGCTAAAAC----CA
+                                                                      
+
+Seq5      ---TTAAGCGCTT------------------------------------CAAGTATA---
+Seq1      ---ATCGGCATTTAGC-----TAC----------GTCGGTCTCTGGCTTCTTT--TTACC
+Seq3      ---TTAGGCTCTCCGG-----CCCGTTGAGTCCAGTTGGTTTGGGGCAGGTTATCTGCCC
+Seq0      GGGTGTAGCAC---AGGAT-ACAGGTCTAG-CAGGCCCAAG----------GTGCGG-CC
+Seq7      ---TAAATCGCCTCCGGAT-GTCCTTTGCT-CCTGACCT-----CTCATCATTG-ATGCC
+Seq6      CGCGACAGCACCTTGGGAGAAATCGTAACG-ACTGCCTGGG---CGC---AGAGCGGGCG
+Seq2      --CTCCTGCGCGCCAT--ATACCAATCG--------CAGATGGGGGCCGCAGGTCGGACC
+Seq4      GGAAACTGCTCCCCGT--AGGTCTGTAACG-TCAGCCAGGTTTGCGCGTAATGACGTGCC
+                  *                                                   
+
+Seq5      --ACGAAAACA-----------------T--TCTCACTGGACACCAC---------TGGT
+Seq1      TTAAGTATACAAGTCC--TAGGATGCAAA--CGCCACTGGACAGCGTCGAATCGTGTGGT
+Seq3      TACTG-----------------TAGTTAA--CG-----GTACTGCCACGGCTAGGG---T
+Seq0      GAGTAT--AATGGTCAAGCCGGCTGCACCAGCGCACAAGCCCACCCAGGGCTCGGGGAT-
+Seq7      AA-TTT--AGATG-A---AAGC--GCACCCTC--------------------AGCGTTGT
+Seq6      AATGTT--AGATG-T---GCGAAAGC--TATCCGTTC-TACTCACCAGTTCAA-------
+Seq2      GA----------------ACGTGTTCTCCCACCAT--------------ACTCGCGAATT
+Seq4      ATT-------AAG-T---TTGTCAGCTCACGCCTATC-GACCTGCAAGACCACGCGTACT
+                                                                      
+
+Seq5      ---------------TTTTCGATAACATG--TGGGCTATCAAAA-----CATATAGCTCG
+Seq1      ---------------AGTACGATCATACA--AAGGCTCAATGGGC--ACAGGAAAGAT--
+Seq3      ---------------A----------------CCGCGCAAAGGTT--AAGGGATTGATCG
+Seq0      -TCATGTCACTGGATCGTTTGCTTCCGTGAAAAGTCCCTTAGACAGTTGA---TTGGACT
+Seq7      --------A-----TTGAATGGAAATTG--------GCTAATGG-AATGGAGCTGGGTCA
+Seq6      -----------AAATAGTCAGATACC-----------CTGGGCCTATAGAGTCTGGTCCG
+Seq2      G------------CTAATAAGGATACGA--------CCGTTGAGAAATACAACGGA----
+Seq4      ACCGTGTTATTTGATTATCATAAGACTT--------GCGAAGA----AGCTACAGAGCCG
+                                               .                 .    
+
+Seq5      ACTCGCCCGT---TAGCGAGCCGTAT-TCTAGTGTATGTGC---------AGGGTAGCCA
+Seq1      --T--CAAGATTAGAGCGCGCAGTGT---AGAA--TTGTG----------TG--------
+Seq3      TTTAACGAGTGCGGAACGCTCTTATC-TCAGGT--AATTGA---------GA--------
+Seq0      TCA--------GATCTCCTTCCACGCT--AGGTGAGGTAGT-----------------CC
+Seq7      A----------GGTTGCGGTCTGCGATGCGGGTGCGGGAGTTCGGTAGGAAGTAGTGCCA
+Seq6      T----------TATATCGATC------------------GCTCTGTA-GTAGTGGAGCCT
+Seq2      -----------AG-------C---------------------------AT------AA--
+Seq4      A----------CGACTAGGTC---------------------------GTAGAGGTGG--
+                              *                                       
+
+Seq5      GAAATTGTCGGCT-GATAAAGGTTGTTTACTGTCCAAAGAGTCGTAGGCCTAAC------
+Seq1      -----TGACTACT-ATCGCATG----AAAC-------------------TGATC------
+Seq3      -----TGACGCCT-AATTTTGG----TATC-------------------TATTC------
+Seq0      GTTGGACACGTAATTATTATGG------ATAGTTAATGCAGCCGTCGGCAGAACAAGTCG
+Seq7      GGAGTACGCAC----------G------G------AGAGGGC-------CGT----GGTG
+Seq6      AT--TACGCGC----------G------AATGGTAAGCGGG-------------ATACGA
+Seq2      ---------GG----------G------ATTGGCAAGGGGAC--------TTA--ATTGG
+Seq4      ---------GG----------G------TTAGTCTTTGCGGC-------CGTTCATGTAG
+                               *                                      
+
+Seq5      -CTCTAGTATTTCAATTC-------------------------------GATGG------
+Seq1      -CGCTAG-----------------------------------------------------
+Seq3      -CGCGGT-----------------------------------------------------
+Seq0      CCTCAATCTTATCCCCCCTGGTCCACGTCCAA--CTGCTCGTCTAGAAAGTTAA------
+Seq7      CTGC-----------TACTGTAGT----CA------------------------------
+Seq6      CAGC-----------CCCAGGATACGGTCTTACCCGTCCCGCCTAGCTAATTAGGGATCT
+Seq2      CATC-----------TCC------------------------------------------
+Seq4      CTTA-----------CCCAGGTATTA----------------------------------
+             .                                                        
+
+Seq5      -GGTTTAACAACA--------------------GTCAGG----GACTTCCGTCAGAGG--
+Seq1      --TGTA---------------------------TACCGAGTGTGTTTGAAGAAATGG---
+Seq3      --TTTCATCACCA--------------------TGCCGTGC--TTCTGATGTCAGAGC--
+Seq0      ------ATTTACAGATCCGCTATTACATACGCCGTTTGAACGATACAGGAGTCTCGTCAA
+Seq7      -----------------A-ATCAGGCTGCCGAGGCC--TT---TTCCTCAGTA-------
+Seq6      GGCTTTTTTATCGG-TTA-TCTTTGCAGTCGCCA--------------------------
+Seq2      -----------------A-TTTAGGCGGACGCCGACCGGT---ATCCGA---TACGAGAG
+Seq4      ---------------TCA-ACTCAGAAGACGCCCCTTTTG---TTCCGCAGTTTCTAACT
+                                                                      
+
+Seq5      ------CCTATCCCTAGAGAGAGTGTCACT-----AGGTGTCCTAACGCACCGGC-----
+Seq1      --------------GAACTATAACGACCAT-----AAG--GC-----GCCCCGACCG---
+Seq3      ------ATGTTCCCGAACACAGAAGTGCAA-----TGG--ACT---TTCCACGGACC---
+Seq0      ------GTGATTCAAGGACCCGA-GTGCATTGA------GACAATAATTTACGTCA---T
+Seq7      -----------ACCGCGACCCAGT--------AAATTGCATCTTTT--CCTCGT-----A
+Seq6      --------GTTACCTGGACACGAT---------------GGT-TTA--CCTCGCCTCACA
+Seq2      GCTATCTCCCTGACTGGGCCAGACGAACTAATGGTTTGTGGC-ATA--CCACGCCGT-CT
+Seq4      TATATCCCGATTCCTTGACCCTTCGATCATTGA------GTC-AT---------------
+                          .  .                                        
+
+Seq5      ---------CACTA--TGAAACACTGCCTGACCACAGGTGTCTCCAAGAGAGGGACG---
+Seq1      ---TTCCGCCAATG--GTGT----AGTTAGTCCGATATGCACTACTTCTGAGGAGCA---
+Seq3      ---TAACGCCGCTA--TCT-----------------------AACGTGAGAGTATCG---
+Seq0      GTGT------------ATGTCCACAATCA-----TTAT---A------------------
+Seq7      AAGTCTCCCCT--TTTAG---------------------------GTCTGTGAGTTGACT
+Seq6      GAGTGACCCCTGTA-GTGGAA---------------------------TGCGTGTTATCT
+Seq2      GCGCGCAACCGATATT-GGAACTCGATCT-----TTAA---GGCCGGCTGCGAGGCGACC
+Seq4      ------TACTGATATTTGTTAAACGTTCG-----TTA----GAC--------TTTCGTCT
+                                                                      
+
+Seq5      GG----------ATAAATATAGCTT---------------CTGTACGACC----------
+Seq1      GG----------GCCGC-GTG------------TCCTTATCGGGGA--------------
+Seq3      GA----------ACAGT-GTAGCCAAG-----GACCCATACAGGTAATCCAGTATCATTC
+Seq0      -----------TTTAGTGGTAGACAAGGTATTCTC-----ATGAGC--------------
+Seq7      GAAAAACTTCGCTGA-------CGAGAAAATTATCCATTTTTGCGC--------------
+Seq6      TAAAAGAACCATTTGATCCATGCGTTGGTTAGATC------AAGGC--------------
+Seq2      GT-TTGCTCCGTTTTGTCTGAGCACAT-AACGCACCATCTATCGGC--------------
+Seq4      ATTTTGCTCG--TAAGTAGATGCAAGT-TAAGTTCCAACT--------------------
+                                                                      
+
+Seq5      -AACGACAAGGACATGGGAATA-TCACACA-GGGAAGAA--T---------GCGTGCAAC
+Seq1      ---------------GGGAAGAAGCCTTCGTGGGAAA-------------GACCTGAGAT
+Seq3      GCTCGTTAATGACGCGAGGATCGGCATACGTGTGTAGAAAATTCGAGACGGGCGTGCGTT
+Seq0      --TGTCTGTTGACA-------TTTCACACAGC------------GGTTCAGGCCTTA---
+Seq7      --TCTCTGA---------------------GG------------GTTAT--------CGT
+Seq6      --TTACGCA---C--------AAT-GATCGGA------------GTGAGC----------
+Seq2      --TCTTGGA---C--------TATCTATCAGA------------GACGTT-GCCTGCAG-
+Seq4      -----CAGA---C--------AGTC-TTCGGA------------GATGTTGGCCTGTAGT
+                                                                      
+
+Seq5      A--------------------TAGGAGTTCTCTTCGTA--------------CCT-----
+Seq1      ----------------------GACAACCCTCTTAGAA--------------CCT-----
+Seq3      ----------------------GAAC----------------------------------
+Seq0      -----------------------TGAC-CCTCAAGAGATATTGGTAAAAAGACTCCTATA
+Seq7      TATGCTACCAAG----------------CCCCTTTG---GTAGGCGAACTGACCTCTCT-
+Seq6      -----------------------GGACTCCACTTGT---GTAGGTATA---GCGT-----
+Seq2      -------CAAACCCTCCACCTTGGGACTTCCCTTGT---GTAGAAATC---ATCCCTCCA
+Seq4      ATAGCTTCAAGCACTTCAACTTAGA-----------------------------------
+                                                                      
+
+Seq5      -------CTGAATCAAGT---AACTACCGG-------AGGGGATGCACCGCGAGAAGTGG
+Seq1      -------TA-ATCCGAGA---TGATTTCGGCAGATGGTAGGGCTGTCGCGATA-TTGAGG
+Seq3      ------------ACGAGG---TTATACAGG----TTGTTTTGTT-CCCC---------GG
+Seq0      TAAGCTATCGATGTGTTCGTTAATAGCCGGACGAATGTCGCGGAGAACCAGG--CTTGAT
+Seq7      ---------AATGCGTACGTCCAC-----------TG---GAGAGAATCTGC--CAGGTA
+Seq6      -CGTT--TTGATGTTT-AATCCAC-----------CCAAGTCATGCCTCAGT--CTGGGG
+Seq2      TCATC---AATAGCTT-TTTTCTA-----------TGAAGACGAGCTTCTGT--CAGC--
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      TA-----ATCAAGGAGGTCAGGCACCGTCAAACGCCCGTCA-------------------
+Seq1      AA-----ATGTGCGTGC--------CGT---CCCACCGACA-------------------
+Seq3      TT-----ATGAGCTAGG-------------------------------------------
+Seq0      ATACGAGCTCAGTGAGCTCTG------ACGTATACCTGACACTGTACGCATAGGAGGAAT
+Seq7      ----------------------------------------------TAC-GGGCAAACTA
+Seq6      A------CCCATAGCG----------------------ACAGTCTGCACAGGGAAAGGAA
+Seq2      -------CACTAAGTG----------------------------TTTACATCGAATCGTT
+Seq4      ------------------------------------------------------------
+                                                                      
+
+Seq5      ---------ATTCGGCTCGCAT--------------------------------------
+Seq1      ---------GACCTATGCGCAA----------------GAGGAT--AC------------
+Seq3      ------------CGAAGCGCTT----------------GTAGGAAACT------------
+Seq0      ---------GTCCCACGAGCACGCCAAGCGTCTGCT-TGAAGAT-----AAGAGA-----
+Seq7      CTCCACTGAGACCTATGCACTAACCATGAACCACCATAGATGTTAAATTAAGGGAACAAT
+Seq6      GTTCACTTATACCGCCTCAAG--AACAGGACCAT--------------------------
+Seq2      CTCCACCTTATCACACACGCC--GGCTGG-CC----------------------------
+Seq4      ---------GGCCCTCTCGCA--CCCTAA-CG----------------------------
+                      .    ...                                        
+
+Seq5      ---TGAACCTGCCA----TCCA--------------------------------------
+Seq1      -ATTGTGCCGCCCGAGACACCAAGTCCTCAATT------------------------ATA
+Seq3      -GAAGTGACGACTGTCGCACCATTGCCTCGGGT------------------------TTC
+Seq0      ----TTGCTTAC----CCCC--TCTTCGCGTATCACGTCTAGTAATTCGCGGGCCACTGC
+Seq7      CATTGGGCATAA----CCTCCAGCCAAGCAGAGTCAACAACGGTATCAGAGG--------
+Seq6      ----------------------ATCAAACGA-----CATGCGGTAACCGCGGGACGAAAA
+Seq2      ----------------------AAC-TACGTTGTCAATGGAGATTTGCTCGGCAAGCATC
+Seq4      ----------------------ACCATACGT---ATAAGTCGACAAGAACCGCCTGCTGA
+                                                                      
+
+Seq5      ---TAGTCAGCACCCGTAGACT---------CGCCA----GTTATA-AGGACG-------
+Seq1      CTT--TTCCATTTCCGGGTAATG-----------------ATGATAATGGGTGTCTTCCC
+Seq3      TTAATAACGGCAGCCGTATAACGAACTACAACGCATACATATAGGATTGAGCG---TCTC
+Seq0      CAAGTTTCCGA--------ACT-------------TGAG------A--A-----------
+Seq7      -------CCGTATCCTTGACCTATTGA-----TACGGAGTATGTGT--TTTCGTAGCCAC
+Seq6      ---AAGTCATTATTCATGGGCTAACGA-----TCCTG----TTGGA--GTCAGTTTCCTC
+Seq2      ---AATTCCGTTGCCACGGGCTGGTCA-----GAATT----AGG-G--ATCCAATACCTC
+Seq4      ---AAATCATGAGTCAT------------------CG----CTA-G--TCCCGTTTCCTA
+                 *                                                    
+
+Seq5      --------------------------------GACACCTAGTGTTCTAATA-GATA----
+Seq1      TAAGT-GGCCTAGTTGA-------CT-TTAATGCCCCCCAGGCTTTTAGGAGGTTC----
+Seq3      GAAAT-GGACAACA-GA-------AA-CATATGCGCCGTAGTGTTATTTGTGGTTA----
+Seq0      ------------------------TACAGGCTGCTC-CGAGCTTCAGT-GTAGATACGAC
+Seq7      TAGAATC----GAGTTAGGCATAAGTCATTATTTCT-CGAGCG-------CCGTTGCCAC
+Seq6      CTGAATGTACTTT-CTT-GCCTAAGACATTATGCCC-CCAGGG-------CA--------
+Seq2      TTTCTGGGCCGGAATATATCATCA---GGTGTACCT-ATAG-------------------
+Seq4      GAAATGGGCCGGTACTTA-----A---GGTGTGCTC-CCTGAA-----------------
+                                                 :*                   
+
+Seq5      -------TGGTAAAAA-CTCAGCCCCGTTCCTGGGCACC--CCCCGTTGTCTTATCT---
+Seq1      ---------------AATAT-AAAGTGACTC-AGTCTCC-TCCCGACTGACTATTTGA--
+Seq3      -------TGGGATTCTCCATCGTTCCGAATC-GGTAACCCCCCCTGCTGCCCTT---G--
+Seq0      ATAACTAGAGTCTTTT--G------TGGATACGCACTCGGCTCCTTGTTGCACCAGAG-A
+Seq7      CCTATTATGATCAAAA--ACTGGC-TGGTTCAGGCGAT-CAACCTGTGGCCCAAAGAGAT
+Seq6      --------------------------CGTAACGTACAC-GTTCCTAGCGCC---------
+Seq2      -------------------------------------C--------TTGCCGATAGCGTA
+Seq4      ---------------------------------TATTC-ACTCCAAGTACCAATA----A
+                                                            *         
+
+Seq5      ------------------ACACATACCGTA------------------------------
+Seq1      --CTTGG-A----AAAAAACAAAAACCGGT------------------------------
+Seq3      --CTTGC-A----T--------ATACTAGA------------------------------
+Seq0      GGTAAGGCATCTTA---ATCCGGTTCCGATCCCCTGGT-AGAGG---GGCGTAAGTGGCC
+Seq7      GGTGAGGCACCTCTGAAAAACATTTCCGTCGCTTTATTCAGTAGTCCGGGCTGGTTGACT
+Seq6      --CCAG------------------ACCGC---CATGTTAAGTGGTTCGGGCGTCGGTGCA
+Seq2      GGCCAC------------------TCCGT---TGATA----ATTAAAGGTGTACGTG---
+Seq4      GGTCAG------------------TCCGC---GCTTT-----GAATCGGGGGGCGTAGCA
+                                  :* .                                
+
+Seq5      ------TGAAGTCTCGATATACGCATCAGGC----------TGTGTTAG---------TT
+Seq1      ------TCTAGTC------CAACCAGC--------------AGTGGACG---ACCCGTTT
+Seq3      ------GGTGA---------TCGCAGG--------------AGGG------------GTT
+Seq0      ATGCGAGGTTATCCTGAAGTATCCCGCTGGCAACTAGGCGATCTGGAAATCAA----TTT
+Seq7      GTT--ATCAGTTCCCGATGTATAGGTTGGTC----GGGCATTTTG---------------
+Seq6      AC----TGGGG--------CTTCGCAGGGAC----GAGCGAGGGG-CAATCCCCTCAATT
+Seq2      ------------------------------------------------------------
+Seq4      GTA--AAGGAT--------CATTGCTGTG-------------------------------
+                                                                      
+
+Seq5      TCCAAA-GAGACCATCGTTGGGCGTGTATAATAAGCAGAACGGTGCTGACATAGTTTAGA
+Seq1      GACTTT-AGGCC----------------------------------TTACAAGC---TGT
+Seq3      GTCAAT-AAGCCATTTACCTAGCGA---------GTCGAACTGGGCTTACACGCTCCGGA
+Seq0      TACAACCCGATCCTAAGAGTGGT------------ACTGACGATTAG-TAATG-------
+Seq7      ------------CT-AGAGTGGCAAG-----TAGTCCTAACGG-----------------
+Seq6      TACTG--CGGA-CA-CAGGTGGAGAG-----TTTCCAAATCGGATAT-CCT---------
+Seq2      --------------------------------------------GTG-CTT---------
+Seq4      ---------GC-CT--AGTAGGCTAC-----GATGCAGCACGGTAAA-CTA---------
+                                                                      
+
+Seq5      ACGGG------CT---GAGGAC---------------ACTTGG-CCAGACAGAGAAAGCG
+Seq1      ACCAGGTTAGTCTTAGAAGGACACACCTTACGTCGACACATAGGGATGCGTGACGCT-CA
+Seq3      GCCAGGTGATCCATTGGAGAC-----------------CTTAGGGTATAGTGTCACCGCT
+Seq0      GTCGGGAGTGAGGTTG-AGAA-A---------------------------CGCCGATGTT
+Seq7      ------------------------------------------------------------
+Seq6      -----ATGTATTTTGGGGGGC-T---------------------------TCCCGAAGCA
+Seq2      -----ATGATTTGT----------------------------------------------
+Seq4      -----CTGTGTGGATG-CGAC-T---------------------------T--------C
+                                                                      
+
+Seq5      TGTACGTTATACCATATATTGGTA---------------TACCAATCG--------GCTC
+Seq1      GATTCGTAGCATG--CTTTTTTTA---------------ATCCCTTTC--------CATC
+Seq3      TGTTCGTTA--AG--CAATT---------------------------G--------GATT
+Seq0      GGTGTGGAA--TATTCTTAAGTAATGTACAATCAATGT--ACCAAATACTCTCGGGGTCC
+Seq7      --AGCGTATTAGTTTCTCA--AATAC----GACATCGTTTACGGGTTACTCTTGTTATGC
+Seq6      TGCGCGA------------CGAAATCACCAGACTTACAT-CATAATGGCACTGGGTGTGC
+Seq2      GGCGCTAATGGTCACCTCAGGACTTGACCAGGCAC-------ATGTAGTTT---CAGTTC
+Seq4      AGCGCAGATCATCAGCTC-----ATCTACAGACGTCCAA-ATTAAAAGCTG---CGTTGC
+                                                                      
+
+Seq5      G--------GTTCGG----AAGACACGGAACGCAG-------ATACATATTAGCGATGAC
+Seq1      GA-----CTACTCGT----GGACCACATCAAAAATATCGTCCTCTCCACTTAACGTGGGC
+Seq3      GG-----CGGTGAGA----GACCCTCGTGATG------GACTG-----CTGCCCGAAAGC
+Seq0      TACGTCGCGGTTCGTCAG-GATTACCAGCCTAGG--------TTCCGGCTTAACGGTC--
+Seq7      TGCTTAGCAGTTCGTTCTCGAACAC--------G--------AGGC-ACATTACGGCG--
+Seq6      AGCTTCCCG------------------------T--------AAGCCTCTAAAGGGGGGG
+Seq2      GGCCCCCTGATTGGA---A---------------------------------TC-GG---
+Seq4      GGCACCTTGAAGTGT---AGACCCC--------A--------TAGCAGCCAAAC-GGTAC
+                                                                      
+
+Seq5      AAGGCT--------AAAGGTTAC-GGATCACTTAGACCCCTCGCACTT------------
+Seq1      CCATCATTATGTCAAATCGCGGC-GCCACACTACGTCCTCTGGTTCAT--CGCGTAGGTG
+Seq3      CCGC-------------CACGGC-GCTT-------------GAGTCATTCTGCGATTGCC
+Seq0      GCGCAAGGACCTGCT--AGAGTCATAATAACTGAG-------------------------
+Seq7      GCGTAATGGGG--------TGTTTTTTACATCGCGA------------TCCGCCT-----
+Seq6      TCGATAAGATG-----------------------------TAGTACCTAACGC-A-----
+Seq2      ------------------------------------------------------------
+Seq4      TCGTCATGACG--------TTACATCAATTCTGCGTTTTATAGTACCTTTGTACG-----
+                                                                      
+
+Seq5      ------------------------------------------------------------
+Seq1      TCTGCGGTGCTC-------------------------------------AATATCCA---
+Seq3      TTAGTCGTGCTG-------------------------------------AGTCTCAATTC
+Seq0      ---------A-----------------------------------CGACGGTATCCGT--
+Seq7      TT----------------------------------ATCGCTTCTCCGCAAAATTAATT-
+Seq6      -ATATAGGGCAAAATCTCCCAGTTTAAATTCTTCTAATTGAATT---ACAAAATCCATAT
+Seq2      -TTAAGGTGCCG-----CT----------------TTAAGTCCCACGACAGAATTGA---
+Seq4      TGCACAGTGCCA-----ATCAAACATATGACATCCAAAGGTATCTCTGCAGAAGGCATTC
+                                                                      
+
+Seq5      ----------------------TAATCACGATTG---GG---------------------
+Seq1      AGGTGTCACGCCACCCCGTCTCAGTTCTCGCCGAACACTCAACGCCAGAACACCAATTGA
+Seq3      AGGATAGTCGCCCTGCCGACGT----GTCGATTAACAGTCTGCA---------------A
+Seq0      ------------------------------------------------------------
+Seq7      -TGATATTCGCCCGATT-------------------------------------------
+Seq6      ATAAATGACTCTCAGCTA----------------------------------C-TTT---
+Seq2      -TTAATTTATCCCAGC--------------------------------------------
+Seq4      CAGAGCTAAGCCCAGTAT------------------------------------------
+                                                                      
+
+Seq5      -----------------------------CTTCTCT---GGCCGCTGTATACCTACCA--
+Seq1      TGGAAAC-CAAGT--GTGGTGACAACAATCGTATCCGCCGGCTACCGAAAGCTTACGAGC
+Seq3      TGTAGTCCCAAGGATATCGTGCCCGCGTTCGTGACTTG-ATATCCAGAAAACCTCCCGAC
+Seq0      -----------------------------------------CCATAGCATAACAA-----
+Seq7      -----------------------------------------CCTCATCATTCCATCGA--
+Seq6      --------------TAGGGTAGT----------------CGCCTCAGTTTGCCTTCTAT-
+Seq2      ------------------------------------------------------TCCAT-
+Seq4      ---------------------CC----------------CGCCACTTT----CATCCGT-
+                                                                      
+
+Seq5      ------------------------------------------------------------
+Seq1      GACCTATACGGATTGTAG------------------------------------------
+Seq3      AAACATTGCGGCTAGGGAAAGAGACAGAACGAGATAGACTAAATAGTCTTTCAATTTA--
+Seq0      -------CCGGCCTGTT-GAGATA-------------------CGGGCTAGTA-CCTG--
+Seq7      --------CGGCATGC---------------------------AACTCTTTCAACTTGTT
+Seq6      GGAGTCTATGGAACTAAAGTGATT-------------------TATACTTTC--------
+Seq2      GCACTCTCCGGTCCGA-------C-------------------TATGCCTGC--------
+Seq4      GGTTTCTCCGGCCCTGAGTACAAA-------------------ATTTCCTGCAA----AC
+                                                                      
+
+Seq5      -----------------------------------------------CAAGTGATGAAGA
+Seq1      ----------------------------TCGTGAGCTTCG------CCGTGTAAACAAAG
+Seq3      --------------TCTGTGCAGGAGGTTTGTGACTCACG------CCGAGTCTACAAGC
+Seq0      ------TGGACGGGAC--TGAAAGTATAACTAATCTCTAA-ACGACTCGCGAACTCAAG-
+Seq7      ATATCTCGGCGTTTTCTATATTAGTGGTTCATGACTCTGAATTTACTCACGACAGT----
+Seq6      -------GGT---------------------TGA-------------CGAG--------A
+Seq2      -------GGCTGG-ACTTTGTT---ATATCGTGACTT-----T----AGAGTTATACATA
+Seq4      GTCACGCGGGAGG--CACTGTT---C---GGAGACTCGC-ATATGCACGAGATAATAAGA
+                                                         .. *         
+
+Seq5      ACGC----------GAGG---GAAT--------------------------GGACTC---
+Seq1      TCAT----------GCGAGCAGAGT--------------------------TGTCATACC
+Seq3      T-AT----------CAGTACTGGGT--------------------------GCACACACG
+Seq0      ------------------------------------------------------------
+Seq7      -------TATTAATGCGTTCAGA-ATTCGCAACC---TGT---AGGCGCAGCACCATTCC
+Seq6      ACAAAATGCTTAAAGCGGTAGAAGTGTCTCTACCTTCCCTCGGAGGCGCGGTCGCTTACG
+Seq2      ACACCACGCAAT----GGATGTTGAAAT-------TCCGT---CATAGCGATATCCAACG
+Seq4      A--------CTA----GGTCGTTATATA-------TCCGT---ATG----GGTTCCATCG
+                                                                      
+
+Seq5      ----AA-------------------------------------GAGCGCGT---------
+Seq1      CTACTA-------------------------------------TCGAGCGT---------
+Seq3      AGTCTA----------------------------------------AGAGA---------
+Seq0      ------------------------------------------------------------
+Seq7      TGGCTCAATATCATTGCGTGGGTGAACTGG---------------GATTGA---------
+Seq6      -----------CTCTACTTAA-----CC---AAGCCTCAGT----GAGCGTCCGCCTCGT
+Seq2      CCTCT------CTCCGCAAGGATGCGCCAAAA-A----AGACATCGGTAGTCGGGCAATT
+Seq4      GGACTGGAGAGCACAGC-TGGTTGCACAGTCGATCGGCATTCAACGT-TGTATTCCTAGC
+                                                                      
+
+Seq5      ----------CA-----TCATCG--CCAACGGTAGTCTAA---------TAATATGCT--
+Seq1      ----------CATTCCTTCTTAA--CATTGGGCAGGCCTTT------GGATGTACACT--
+Seq3      ----------ATTGCCAAT------------TCTGTCAGTT------GTATA-----T--
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      CGTGGTGAGTCACACTGTCTTCACTACTCTGATAAGCTTTAAACATCGGCAAGACCCTAG
+Seq2      TCGGTAATGTAACAT----------CCATT----------A------GATGTAACTAT--
+Seq4      CAGGTTAAGTAACAACTT-------CCTTGGATTCGCGTTAGTGATCGAGGTGATTCT--
+                                                                      
+
+Seq5      -TCTGA-----CCTGACAGGCGGCGCCCATCGACTCG---GACATGCCGAGGCATGAGCC
+Seq1      -TCAGC------GTGTC-------------CGGCTCGGAGGCCAGACAGTGGCCGTATCC
+Seq3      -TCAGT------CGGTC-------------CG------------AGCCTAAACCGCTTCC
+Seq0      ------------------------------------------------------------
+Seq7      ---------------------------CAGCATCC-------------------------
+Seq6      ATCTGGATCGTTAATTCAAGAGTAGGACTCCATCTAGGTGTCCCTGACTGTGCCCACGA-
+Seq2      -----------GAGGCTATGACGAGGACGGCCCC--GGTGGCCTAGCTGAAGACTACG--
+Seq4      -----------TATATAAAAACGAGGCCCGCCGCCAGGTGAGCCCACTGAGG--------
+                                                                      
+
+Seq5      GTAGTTCGTCAA-------------TAGCGCA---GCACAAG--TGGGGTACCCTATGCC
+Seq1      AAAGGGGGCACA-------------TTGCAGTTCCTCGCACG-----GCCACTCC----G
+Seq3      GACATGGGGTAG-------------TTGCAAAATGACG-ACG-----TCTTCTCA----G
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      GCAGTGCGTCCAGCTCAGCGGAGTTTTACGTTTCCTCCTCTGCAGAGGCCTCGCAGCACC
+Seq2      -----------------------GACTCCGTTTCCACCATATGGTCCAGCACGA--CGCT
+Seq4      ----------------------------------CACCCTTAGGTAGGTAACGCTGACCA
+                                                                      
+
+Seq5      C---CCGGTTCCGTCGCTGCGT-----------------------------------AG-
+Seq1      T---CTGGCCACGCCGCTGCTT-----------------------------------GAG
+Seq3      A---G-----ACACCG--------------------------------------------
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      A--------TACAGTGGTGCGTCGCGCCGGGGGACCGCACTTT-----------------
+Seq2      AGCTACTG--TCTCCGGAGCCTAGA-----GTGTCAACACTTTCACGAAAGCTGGTTCAG
+Seq4      TGCCGCATCCCCGCTGGTGCCTATCAACAGGTGAACGAACTT--TCGGCTTCTGCTTAAC
+                                                                      
+
+Seq5      --CACT--------------------------------------------CCAGGCACGG
+Seq1      GTCCCTC-------------------------------------------CTAGGCACAT
+Seq3      -------------------------------------------------------CTCTT
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      ------------------------------------------------------------
+Seq2      GGCATTACAGAACTATCCAGTCAGCAC---------------------------------
+Seq4      GTCAG---GACTCTATCCTGCCCCCACACTTATCTGGGACCTCAAGCTGGCCTGGCACTG
+                                                                      
+
+Seq5      TTTATGTACTGCTCAAGAAATGAAACAACTTTAGATTGCAGGCTCGTGCAATTTAGATCC
+Seq1      TG-----------------------CAACTTATGGTCGTTGG------------------
+Seq3      TT-----------------------CATTTAAAACTCGAAGG------------------
+Seq0      ------------------------------------------------------------
+Seq7      -------------------------------------------------G-------GA-
+Seq6      ------------------------------------------------------------
+Seq2      ----------------------------------------GAAGCGTAC----------A
+Seq4      ATATAGTATGGC----------------------------TGTGCGACCT-------GAA
+                                                                      
+
+Seq5      GCCTCCGATCACTATACTTTC---------------------------------------
+Seq1      -CCACCGATAACCTTACTCTCTGTTCTAGTAAAT-AAGTC-------------------A
+Seq3      -CT---------------------------------------------------------
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      ------------------------------------------------------------
+Seq2      GCTTCGAAGTACG-TAATCACGATTCTGGGACTATTAGACCGTTGTGGGGAGATGCGTGT
+Seq4      GCAACCGTGAGCT-ATGTCCCGGTCCTG------T---------CTGAGGA-AAGTGTGA
+                                                                      
+
+Seq5      ---------------CA---------------AGG----CCTAGT---------------
+Seq1      C-ATACCACGAGGACCT---------------TCG----CCTTCAATTGCTT----TTAG
+Seq3      ------------------------------------------------------------
+Seq0      ------------------------------------------------------------
+Seq7      -------------------ACCT-------------------------------------
+Seq6      ------------------------------------------------------------
+Seq2      ------CACCGGGTCGATAAACTATGATTTCAGCGCAAACCTACATAGGCA---TGC--A
+Seq4      TTAACGCTCATTGACGATAACG---------TGGGCCCACCGACTATGAGAATTTGATAG
+                                                                      
+
+Seq5      --------ATCGAG------TTTGC----AGGACGGCACG-------T--TGCTGCGAGT
+Seq1      CGCAGATAAGCAAA------TTGGTA--GAGCACAGCACG-------TGATGCGGAGTAG
+Seq3      -----------------------------------GCACG-------T------------
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      ------------------------------------------------------------
+Seq2      CGCAGCATA---------------------GACCTGCCTTTTCCAGACGACACGG-----
+Seq4      CGATGAAATGTCATCCTGATTCAGCAAAGGGACCGGCGCAGTCTAGCTGGAGCGGCTTAG
+                                                                      
+
+Seq5      CCGCCCATAT---------------GTGTCTAAT-----------AC--TAATCAGCTTT
+Seq1      CCGTGCTCCG-----------------GACGAAT-----------ATTGAGATGTGCATT
+Seq3      ------------------------------------------------------------
+Seq0      ------------------------------------------------------------
+Seq7      ------------------------------------------------------------
+Seq6      ------------------------------------------------------------
+Seq2      CCCC-GACAAGACGCGGTGGTTC---TGTCGGAATG-TCACC------------G--ACG
+Seq4      CCCATTAACAGTCGCTGTGGTCATCGTATCGGTAAGGTCAGCCAATAAGCTAACTGCACG
+                                                                      
+
+Seq5      CCAAGAGGCTCGGGATGTTCAG--------------------------------------
+Seq1      CT-----GATCGTGGGG---CG--------------------------------------
+Seq3      ------------------------------------------------------------
+Seq0      ------------------------------------------------------------
+Seq7      ----------------------------------------------------A-------
+Seq6      ------------------------------------------------------------
+Seq2      TCTATGTAATACT-----TCTGGTGCAACAC-----------CC----------GACGTC
+Seq4      TCAAAAGGAGGGTGATGGTATTGTGCGTTCCTAGTTACTGTCCATTTTTCTTAAAGCTTC
+                                                                      
+
+Seq5      --------GAACAACGGGGATTAGGACCGGTGCCCATACTATTA-------A---CCATC
+Seq1      --------GAAGACCGGGGT--GACGCCTGAGCCCTTACGTTGG-------AAAGCATTC
+Seq3      ------------------------------------------------------------
+Seq0      ------------------------CACAAATATCCTGACAAATACTAGGCGTGATACACC
+Seq7      ---------------------------AGGTTTCCAATTTCATCCGTGGCGAAC------
+Seq6      ------------------------------------------------------------
+Seq2      CTG----GGACCGCAGTAGCATATCACTGAGTCCAAATGTATTACTACGAGGGTACAAAC
+Seq4      CTTTATTCGACCCCC-ATTCTTTACTCCGTGTTCCAA--------GTGGCGGGTGCCAAT
+                                                                      
+
+Seq5      CGATACAC-------------CAGGGTGGCTAG-GTCGGGAGCTCATGG---------GC
+Seq1      AGATGAAG-------------CGCTGTGGAAGA-----GCAGCTAATCGTAATCTGATCC
+Seq3      ------------------------------------------------------------
+Seq0      TGAT-----AGGGATTATTTTC-------AAGGTCTAGGCATC-----------ATCGCA
+Seq7      ------TTCAGCGATT-CCATCGGGGACGATGG---------------------------
+Seq6      ------------------------------------------------------------
+Seq2      AATC--------------------------------------------------------
+Seq4      AGACGCGCCAGCTAAT-----CGGGCTGGTAGGAGGAGGAAAC-----------ACCTCA
+                                                                      
+
+Seq5      CTAAAGT-GCATAAGG-----
+Seq1      CTACTGCGGCAAAATG-----
+Seq3      ---------------------
+Seq0      C--------------------
+Seq7      ---------------------
+Seq6      ---------------------
+Seq2      ---------------------
+Seq4      CTTATGAGAGTGCGGGTTAGC
+                               

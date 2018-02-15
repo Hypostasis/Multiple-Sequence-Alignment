@@ -81,8 +81,9 @@ def generate_testcase(length, number_of_sequences):
 
 #generate_testcase(100000, 10)
 
-# evaluate_clustal("test_files/testcase1-output-clustal", compute_sum_of_pairs)
-# evaluate_clustal("test_files/testcase1-output-tcoffee", compute_sum_of_pairs)
-# evaluate_clustal("test_files/testcase2-output-clustal", compute_sum_of_pairs)
-# evaluate_clustal("test_files/testcase2-output-tcoffee", compute_sum_of_pairs)
-# evaluate_clustal("test_files/testcase3-output-clustal", compute_sum_of_pairs)
+evaluate_clustal("test_files/testcase1-output-clustal", compute_sum_of_pairs)
+evaluate_clustal("test_files/testcase1-output-tcoffee", compute_sum_of_pairs)
+evaluate_clustal("test_files/testcase2-output-clustal", compute_sum_of_pairs)
+evaluate_clustal("test_files/testcase2-output-tcoffee", compute_sum_of_pairs)
+evaluate_clustal("test_files/testcase3-output-clustal", compute_sum_of_pairs)
+evaluate_clustal("test_files/clustal8.clustal", compute_sum_of_pairs)

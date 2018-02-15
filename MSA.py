@@ -4,6 +4,7 @@ from Bio.SubsMat import MatrixInfo as mi
 import numpy as np
 import tests
 class MSA:
+    #sequences is a list of tuples (sequence_description, sequence)
     sequences = []
     def __init__(self, master):
         self.master = master
@@ -25,7 +26,7 @@ class MSA:
         self.align_button.pack()
 
 
-        self.align_button = Button(master, text="DCA", command=self.align_dca)
+        self.align_button = Button(master, text="DCA", command=self.align_dca_edu)
         self.align_button.pack()
         self.align_button = Button(master, text="Star", command=self.align_star)
         self.align_button.pack()
@@ -34,7 +35,7 @@ class MSA:
 
         self.close_button = Button(master, text="Close", command=master.quit)
         self.close_button.pack()
-
+        self.sequences = []
         for seq_record in SeqIO.parse("input.fasta", "fasta"):
             self.sequences.append((seq_record.description, seq_record.seq))
 
@@ -44,6 +45,8 @@ class MSA:
         self.sequences = []
         for seq_record in SeqIO.parse(self.field_input_file_name.get() +".fasta", "fasta"):
             self.sequences.append((seq_record.description, seq_record.seq))
+        print("Sequences loaded from file:")
+        print(self.sequences)
         return
     def load_fields(self):
         """Loads sequences to be aligned from the text fields"""
@@ -51,21 +54,26 @@ class MSA:
         self.sequences.append(("Seq1", self.field_S1.get()))
         self.sequences.append(("Seq2", self.field_S2.get()))
         self.sequences.append(("Seq3", self.field_S3.get()))
+        print("Sequences loaded from fields:")
+        print(self.sequences)
         return
 
     def align_dca(self):
+        return
+
+    def align_dca_edu(self):
+        #dca for 2 sequences
         return
 
 
 
     def align_star(self, match_score = 1, mismatch_penalty = -1, gap_penalty = -1, extension_penalty = -1):
         """performs multiple sequence alignment by the center star method"""
-
+        print(self.sequences)
         def extend(msa_to_extend, central, aligned_seq):
             """given the sequence aligned to the center sequence, adds the aligned sequence to the msa"""
             symbols_count = len(central) - central.count("-")
             sequence_to_append = ""
-
             msa_pointer = 0
             central_pointer = 0
             for i in range(symbols_count + 1):
@@ -112,6 +120,7 @@ class MSA:
             return
 
         #find the central sequence by pairwise alignments
+        print("Finding the central sequence...")
         matrix = np.zeros((len(self.sequences), len(self.sequences)+1))
         for i, row in enumerate(matrix):
             for j in range(len(self.sequences)):
@@ -121,8 +130,8 @@ class MSA:
                                                         match_score, mismatch_penalty, gap_penalty,
                                                         extension_penalty, score_only = True)
             matrix[i][len(self.sequences)] = np.sum(matrix[i][0:len(self.sequences)])
-        central_sequence_score = 0
-        central_sequence = -1
+        central_sequence_score = matrix[0][-1]
+        central_sequence = 0
         for i, row in enumerate(matrix):
             if row[len(row)-1] > central_sequence_score:
                 central_sequence = i
@@ -131,16 +140,22 @@ class MSA:
         print(str(self.sequences[central_sequence][1]))
 
         #obtain pairwise alignments with the central sequence
+        print("Performing pairwise alignments with the central sequence...")
         alignments = []
         for i, sequence in enumerate(self.sequences):
             if i == central_sequence:
+                print("Central sequence, skip", i, central_sequence)
                 continue
             alignments.append(pairwise2.align.globalms(self.sequences[i][1],
                                                        self.sequences[central_sequence][1],
                                                         match_score, mismatch_penalty, gap_penalty,
                                                         extension_penalty, one_alignment_only = True)[0])
-        #construct MSA iteratively
-        msa = [str(self.sequences[central_sequence][1])]
+        print("Number of alignments obtained: ", len(alignments))
+        print(alignments)
+        # construct MSA iteratively by extending it with
+        # every sequence other than the central sequence
+        print("Creating the MSA...")
+        msa = [self.sequences[central_sequence][1]]
         for alignment in alignments:
             central_pattern = alignment[1]
             insertion_pattern = alignment[0]

@@ -3,6 +3,70 @@ from Bio import SeqIO, pairwise2
 from Bio.SubsMat import MatrixInfo as mi
 import numpy as np
 import tests
+
+
+def save_msa_to_file(msa):
+
+    msa_array = np.array(msa)
+    print("Computing sum of pairs...")
+    score = tests.compute_sum_of_pairs(msa_array, mi.blosum62)
+    print(score)
+    print("Saving to file...")
+    file = open("output.txt", "w")
+    for x in msa:
+        file.write(str(x))
+        file.write("\n")
+
+    for i in range(len(msa_array[0])):
+        conservative = True
+        for j in range(len(msa_array)):
+            if msa_array[j][i] != msa_array[0][i]:
+                conservative = False
+        if conservative:
+            file.write("*")
+        else:
+            file.write(" ")
+    file.write("\n")
+    file.write("Sum-of-pairs score: " + str(score))
+    file.write("\n")
+    file.close()
+    print("File saved.")
+
+def merge(left, right):
+    #left and right are lists of sequences representing a partial MSA
+    print("TO MERGE:")
+    print(left)
+    print(right)
+    merged = [a+b for a, b in zip(left, right)]
+    print("MERGED:")
+    print(merged)
+    return merged
+
+
+def dca(sequences, l_min, match_score, mismatch_penalty, gap_penalty, extension_penalty):
+    divide = False
+    for x in sequences:
+        if len(x) > l_min:
+            divide = True
+
+    if divide:
+        left = [x[:len(x) // 2] for x in sequences]
+        right = [x[len(x) // 2:] for x in sequences]
+        print("LEFT", left)
+        print("RIGHT", right)
+        left_dca = dca(left, l_min, match_score, mismatch_penalty, gap_penalty, extension_penalty)
+        right_dca = dca(right, l_min, match_score, mismatch_penalty, gap_penalty, extension_penalty)
+        return merge(left_dca, right_dca)
+    else:
+        print("TO ALIGN:")
+        print(sequences[0], sequences[1])
+        alignment = pairwise2.align.globalms(sequences[0], sequences[1], match_score, mismatch_penalty, gap_penalty,
+                                             extension_penalty, one_alignment_only=True)[0]
+        alignment = [alignment[0], alignment[1]]
+        print("PARTIAL ALIGNMENT:")
+        print(alignment)
+        return alignment
+
 class MSA:
     #sequences is a list of tuples (sequence_description, sequence)
     sequences = []
@@ -61,8 +125,15 @@ class MSA:
     def align_dca(self):
         return
 
-    def align_dca_edu(self):
+
+
+    def align_dca_edu(self, match_score = 1, mismatch_penalty = -1, gap_penalty = -1, extension_penalty = -1):
         #dca for 2 sequences
+        msa = dca(list([self.sequences[0][1], self.sequences[1][1]]), 30, match_score, mismatch_penalty, gap_penalty, extension_penalty)
+        print("ALIGNMENT:", "\n")
+        for x in msa:
+            print(x)
+        save_msa_to_file(msa)
         return
 
 
@@ -155,7 +226,7 @@ class MSA:
         # construct MSA iteratively by extending it with
         # every sequence other than the central sequence
         print("Creating the MSA...")
-        msa = [self.sequences[central_sequence][1]]
+        msa = [str(self.sequences[central_sequence][1])]
         for alignment in alignments:
             central_pattern = alignment[1]
             insertion_pattern = alignment[0]
@@ -164,28 +235,7 @@ class MSA:
         print("ALIGNMENT:")
         for x in msa:
             print(x)
-        msa_array = np.array(msa)
-        #save the result to file
-        score = tests.compute_sum_of_pairs(msa_array, mi.blosum62)
-        print(score)
-        file = open("output.txt", "w")
-        for x in msa:
-            file.write(str(x))
-            file.write("\n")
-
-        for i in range(len(msa_array[0])):
-            conservative = True
-            for j in range(len(msa_array)):
-                if msa_array[j][i] != msa_array[0][i]:
-                    conservative = False
-            if conservative:
-                file.write("*")
-            else:
-                file.write(" ")
-        file.write("\n")
-        file.write("Sum-of-pairs score: " + str(score))
-        file.write("\n")
-        file.close()
+        save_msa_to_file(msa)
 
     def align_progressive_nj(self):
         return

@@ -15,17 +15,33 @@ def compute_sum_of_pairs(alignment, scoring_matrix = mi.blosum62, gap_penalty = 
     """Returns the sum of pairs evaluation score of the given alignment"""
     score = 0
     #print(alignment, alignment.shape)
-    for i, column in enumerate(alignment.T):
+    #alignment = np.matrix(alignment[0], alignment[1])
+    # print("ALIGNMENT, THEN ALIGNMENT.T")
+    # print(alignment)
+    # print("T")
+    # print(alignment.T)
+    # for i, column in enumerate(alignment.T):
+    #     print("COLUMN NO ", i)
+    #     print("COLUMN: ")
+    #     print(column)
+    #     for pair in combinations(column, 2):
+    #         if "-" in pair:
+    #             if pair[0] == pair[1]:
+    #                 #score of (-,-) is 0
+    #                 continue
+    #             score = score + gap_penalty
+    #             continue
+    #         score = score + readBlosum(pair, scoring_matrix)
+    for i in range(len(alignment[0])):
+        column = [row[i] for row in alignment]
         for pair in combinations(column, 2):
             if "-" in pair:
                 if pair[0] == pair[1]:
-                    #score of (-,-) is 0
+                    # score of (-,-) is 0
                     continue
                 score = score + gap_penalty
                 continue
             score = score + readBlosum(pair, scoring_matrix)
-
-
     return score
 
 def evaluate_clustal(filename, function = compute_sum_of_pairs):
@@ -80,10 +96,10 @@ def generate_testcase(length, number_of_sequences):
     return
 
 #generate_testcase(100000, 10)
-
-evaluate_clustal("test_files/testcase1-output-clustal", compute_sum_of_pairs)
-evaluate_clustal("test_files/testcase1-output-tcoffee", compute_sum_of_pairs)
-evaluate_clustal("test_files/testcase2-output-clustal", compute_sum_of_pairs)
-evaluate_clustal("test_files/testcase2-output-tcoffee", compute_sum_of_pairs)
-evaluate_clustal("test_files/testcase3-output-clustal", compute_sum_of_pairs)
-evaluate_clustal("test_files/clustal8.clustal", compute_sum_of_pairs)
+#
+# evaluate_clustal("test_files/testcase1-output-clustal", compute_sum_of_pairs)
+# evaluate_clustal("test_files/testcase1-output-tcoffee", compute_sum_of_pairs)
+# evaluate_clustal("test_files/testcase2-output-clustal", compute_sum_of_pairs)
+# evaluate_clustal("test_files/testcase2-output-tcoffee", compute_sum_of_pairs)
+# evaluate_clustal("test_files/testcase3-output-clustal", compute_sum_of_pairs)
+# #evaluate_clustal("test_files/clustal8.clustal", compute_sum_of_pairs)

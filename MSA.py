@@ -1,8 +1,43 @@
 from tkinter import Tk, Label, Button, Entry, Checkbutton, IntVar
 from Bio import SeqIO, pairwise2
 from Bio.SubsMat import MatrixInfo as mi
+from Bio.Align import AlignInfo
 import numpy as np
 import tests
+from Bio.Align import MultipleSeqAlignment
+from Bio.Alphabet import IUPAC, Gapped
+from Bio.Phylo.TreeConstruction import DistanceCalculator
+from Bio import SeqIO
+from Bio.SeqIO import SeqRecord
+from Bio.Seq import Seq
+from itertools import combinations
+from NeedlemanWunschMSA import NeedlemanWunschMSA
+
+
+def levenshtein(s1, s2):
+    if len(s1) < len(s2):
+        return levenshtein(s2, s1)
+
+    # len(s1) >= len(s2)
+    if len(s2) == 0:
+        return len(s1)
+
+    previous_row = range(len(s2) + 1)
+    for i, c1 in enumerate(s1):
+        current_row = [i + 1]
+        for j, c2 in enumerate(s2):
+            insertions = previous_row[
+                             j + 1] + 1  # j+1 instead of j since previous_row and current_row are one character longer
+            deletions = current_row[j] + 1  # than s2
+            substitutions = previous_row[j] + (c1 != c2)
+            current_row.append(min(insertions, deletions, substitutions))
+        previous_row = current_row
+
+    return previous_row[-1]
+
+def d(seq1, seq2):
+    """Computes distance between two sequences"""
+    return levenshtein(seq1, seq2)
 
 
 def save_msa_to_file(msa):
@@ -67,8 +102,46 @@ def dca(sequences, l_min, match_score, mismatch_penalty, gap_penalty, extension_
         print(alignment)
         return alignment
 
+class Node:
+
+    def __init__(self, msa):
+        self.msa = msa
+        self.compute_consensus()
+
+    def compute_consensus(self):
+        align = MultipleSeqAlignment(Gapped(IUPAC.extended_protein, "-"))
+        for i, seq in enumerate(self.msa):
+            align.add_sequence(str(i), str(seq))
+        summary_align = AlignInfo.SummaryInfo(align)
+        self.consensus = summary_align.gap_consensus(threshold=-10000000, ambiguous="-")
+
+    def __repr__(self):
+        repr = "MSA:" + str(self.msa) + "CONSENSUS:" + str(self.consensus)
+        return repr
+
+
+def merge_nodes(node1, node2):
+    """this function should perform optimal alignment of alignments (e.g. modified Needleman-Wunsch)"""
+    msa1 = node1.msa
+    msa2 = node2.msa
+    print("Merging nodes")
+    if len(msa2[0]) > len(msa1[0]):
+        msa1, msa2 = msa2, msa1
+
+    if len(msa1) == 1 and len(msa2) == 1:
+        alignment = pairwise2.align.globalms(msa1[0], msa2[0], 1, -1, -1, -1, one_alignment_only=True)[0]
+        print(alignment)
+        new_msa = [str(alignment[0]), str(alignment[1])]
+        return Node(new_msa)
+
+    new_msa = NeedlemanWunschMSA(msa1, msa2)
+    return Node(new_msa)
+
+    pass
+
+
 class MSA:
-    #sequences is a list of tuples (sequence_description, sequence)
+    #the variable sequences is a list of tuples (sequence_description, sequence)
     sequences = []
     def __init__(self, master):
         self.master = master
@@ -128,7 +201,7 @@ class MSA:
 
 
     def align_dca_edu(self, match_score = 1, mismatch_penalty = -1, gap_penalty = -1, extension_penalty = -1):
-        #dca for 2 sequences
+        """Performs DCA for 2 sequences"""
         msa = dca(list([self.sequences[0][1], self.sequences[1][1]]), 30, match_score, mismatch_penalty, gap_penalty, extension_penalty)
         print("ALIGNMENT:", "\n")
         for x in msa:
@@ -139,7 +212,7 @@ class MSA:
 
 
     def align_star(self, match_score = 1, mismatch_penalty = -1, gap_penalty = -1, extension_penalty = -1):
-        """performs multiple sequence alignment by the center star method"""
+        """Performs multiple sequence alignment by the center star method"""
         print(self.sequences)
         def extend(msa_to_extend, central, aligned_seq):
             """given the sequence aligned to the center sequence, adds the aligned sequence to the msa"""
@@ -237,9 +310,71 @@ class MSA:
             print(x)
         save_msa_to_file(msa)
 
-    def align_progressive_nj(self):
-        return
+    def align_progressive_nj(self, match_score = 1, mismatch_penalty = -1, gap_penalty = -1, extension_penalty = -1):
+        nodes_list = [Node([str(seq[1])]) for seq in self.sequences]
+        print(nodes_list)
 
+        calculator = DistanceCalculator('blosum62')
+        matrix = np.zeros((len(self.sequences), len(self.sequences)))
+
+        for c in combinations(range(len(nodes_list)), 2):
+            alignment = pairwise2.align.globalms(nodes_list[c[0]].consensus,
+                                                 nodes_list[c[1]].consensus,
+                                                 match_score, mismatch_penalty, gap_penalty,
+                                                 extension_penalty, one_alignment_only=True)[0]
+
+            aln = MultipleSeqAlignment([SeqIO.SeqRecord(Seq(alignment[0], Gapped(IUPAC.extended_protein, "-")), id="0"),
+                                        SeqIO.SeqRecord(Seq(alignment[1], Gapped(IUPAC.extended_protein, "-")),
+                                                        id="1")],
+                                       Gapped(IUPAC.extended_protein, "-"))
+            dm = calculator.get_distance(aln)
+            matrix[c[0]][c[1]] = matrix[c[1]][c[0]] = dm[0][1]
+        argmin = (0, 1)
+        minvalue = matrix[argmin[0], argmin[1]]
+        for c in combinations(range(len(nodes_list)), 2):
+            if matrix[c[0]][c[1]] < minvalue:
+                minvalue = matrix[c[0]][c[1]]
+                argmin = c
+        print("ARGMIN, MIN", argmin, matrix[argmin[0]][argmin[1]])
+
+        print(matrix)
+        # print(d(self.sequences[0][1], self.sequences[1][1]))
+        while len(nodes_list) > 1:
+            argmin = (0, 1)
+            minvalue = matrix[argmin[0], argmin[1]]
+            for c in combinations(range(len(nodes_list)), 2):
+                if matrix[c[0]][c[1]] < minvalue:
+                    minvalue = matrix[c[0]][c[1]]
+                    argmin = c
+            first = argmin[0]
+            second = argmin[1]
+            newnode = merge_nodes(nodes_list[first], nodes_list[second])
+            nodes_list = nodes_list[0:first] + nodes_list[first + 1:second] + nodes_list[second + 1:]
+            # nodes_list.remove(nodes_list[first])
+            # nodes_list.remove(nodes_list[second])
+            nodes_list.append(newnode)
+
+            matrix = np.zeros((len(nodes_list), len(nodes_list)))
+
+            for c in combinations(range(len(nodes_list)), 2):
+                alignment = pairwise2.align.globalms(nodes_list[c[0]].consensus,
+                                                     nodes_list[c[1]].consensus,
+                                                     match_score, mismatch_penalty, gap_penalty,
+                                                     extension_penalty, one_alignment_only=True)[0]
+
+                aln = MultipleSeqAlignment(
+                    [SeqIO.SeqRecord(Seq(alignment[0], Gapped(IUPAC.extended_protein, "-")), id="0"),
+                     SeqIO.SeqRecord(Seq(alignment[1], Gapped(IUPAC.extended_protein, "-")), id="1")],
+                    Gapped(IUPAC.extended_protein, "-"))
+                dm = calculator.get_distance(aln)
+                matrix[c[0]][c[1]] = matrix[c[1]][c[0]] = dm[0][1]
+
+
+            print("ALIGNMENT")
+            for x in nodes_list[0].msa:
+                print(x)
+        save_msa_to_file(nodes_list[0].msa)
+        return
 
 
 root = Tk()

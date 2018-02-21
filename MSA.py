@@ -40,14 +40,14 @@ def d(seq1, seq2):
     return levenshtein(seq1, seq2)
 
 
-def save_msa_to_file(msa):
+def save_msa_to_file(msa, filename = "output.txt"):
 
     msa_array = np.array(msa)
     print("Computing sum of pairs...")
     score = tests.compute_sum_of_pairs(msa_array, mi.blosum62)
     print(score)
     print("Saving to file...")
-    file = open("output.txt", "w")
+    file = open(filename, "w")
     for x in msa:
         file.write(str(x))
         file.write("\n")
@@ -113,7 +113,7 @@ class Node:
         for i, seq in enumerate(self.msa):
             align.add_sequence(str(i), str(seq))
         summary_align = AlignInfo.SummaryInfo(align)
-        self.consensus = summary_align.gap_consensus(threshold=-10000000, ambiguous="-")
+        self.consensus = summary_align.gap_consensus(threshold=0, ambiguous="-")
 
     def __repr__(self):
         repr = "MSA:" + str(self.msa) + "CONSENSUS:" + str(self.consensus)
@@ -124,7 +124,7 @@ def merge_nodes(node1, node2):
     """this function should perform optimal alignment of alignments (e.g. modified Needleman-Wunsch)"""
     msa1 = node1.msa
     msa2 = node2.msa
-    print("Merging nodes")
+    print("Merging nodes...")
     if len(msa2[0]) > len(msa1[0]):
         msa1, msa2 = msa2, msa1
 
@@ -312,10 +312,11 @@ class MSA:
 
     def align_progressive_nj(self, match_score = 1, mismatch_penalty = -1, gap_penalty = -1, extension_penalty = -1):
         nodes_list = [Node([str(seq[1])]) for seq in self.sequences]
-        print(nodes_list)
+        #print(nodes_list)
 
         calculator = DistanceCalculator('blosum62')
-        matrix = np.zeros((len(self.sequences), len(self.sequences)))
+
+        distance_matrix = np.zeros((len(self.sequences), len(self.sequences)))
 
         for c in combinations(range(len(nodes_list)), 2):
             alignment = pairwise2.align.globalms(nodes_list[c[0]].consensus,
@@ -328,23 +329,23 @@ class MSA:
                                                         id="1")],
                                        Gapped(IUPAC.extended_protein, "-"))
             dm = calculator.get_distance(aln)
-            matrix[c[0]][c[1]] = matrix[c[1]][c[0]] = dm[0][1]
+            distance_matrix[c[0]][c[1]] = distance_matrix[c[1]][c[0]] = dm[0][1]
         argmin = (0, 1)
-        minvalue = matrix[argmin[0], argmin[1]]
+        minvalue = distance_matrix[argmin[0], argmin[1]]
         for c in combinations(range(len(nodes_list)), 2):
-            if matrix[c[0]][c[1]] < minvalue:
-                minvalue = matrix[c[0]][c[1]]
+            if distance_matrix[c[0]][c[1]] < minvalue:
+                minvalue = distance_matrix[c[0]][c[1]]
                 argmin = c
-        print("ARGMIN, MIN", argmin, matrix[argmin[0]][argmin[1]])
+        print("ARGMIN, MIN", argmin, distance_matrix[argmin[0]][argmin[1]])
 
-        print(matrix)
+        print(distance_matrix)
         # print(d(self.sequences[0][1], self.sequences[1][1]))
         while len(nodes_list) > 1:
             argmin = (0, 1)
-            minvalue = matrix[argmin[0], argmin[1]]
+            minvalue = distance_matrix[argmin[0], argmin[1]]
             for c in combinations(range(len(nodes_list)), 2):
-                if matrix[c[0]][c[1]] < minvalue:
-                    minvalue = matrix[c[0]][c[1]]
+                if distance_matrix[c[0]][c[1]] < minvalue:
+                    minvalue = distance_matrix[c[0]][c[1]]
                     argmin = c
             first = argmin[0]
             second = argmin[1]
@@ -354,7 +355,7 @@ class MSA:
             # nodes_list.remove(nodes_list[second])
             nodes_list.append(newnode)
 
-            matrix = np.zeros((len(nodes_list), len(nodes_list)))
+            distance_matrix = np.zeros((len(nodes_list), len(nodes_list)))
 
             for c in combinations(range(len(nodes_list)), 2):
                 alignment = pairwise2.align.globalms(nodes_list[c[0]].consensus,
@@ -367,12 +368,12 @@ class MSA:
                      SeqIO.SeqRecord(Seq(alignment[1], Gapped(IUPAC.extended_protein, "-")), id="1")],
                     Gapped(IUPAC.extended_protein, "-"))
                 dm = calculator.get_distance(aln)
-                matrix[c[0]][c[1]] = matrix[c[1]][c[0]] = dm[0][1]
+                distance_matrix[c[0]][c[1]] = distance_matrix[c[1]][c[0]] = dm[0][1]
 
 
-            print("ALIGNMENT")
-            for x in nodes_list[0].msa:
-                print(x)
+        print("ALIGNMENT:")
+        for x in nodes_list[0].msa:
+            print(str(x))
         save_msa_to_file(nodes_list[0].msa)
         return
 

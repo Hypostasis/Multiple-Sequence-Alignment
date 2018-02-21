@@ -14,24 +14,6 @@ def readBlosum(query, scoring_matrix = mi.blosum62):
 def compute_sum_of_pairs(alignment, scoring_matrix = mi.blosum62, gap_penalty = -1):
     """Returns the sum of pairs evaluation score of the given alignment"""
     score = 0
-    #print(alignment, alignment.shape)
-    #alignment = np.matrix(alignment[0], alignment[1])
-    # print("ALIGNMENT, THEN ALIGNMENT.T")
-    # print(alignment)
-    # print("T")
-    # print(alignment.T)
-    # for i, column in enumerate(alignment.T):
-    #     print("COLUMN NO ", i)
-    #     print("COLUMN: ")
-    #     print(column)
-    #     for pair in combinations(column, 2):
-    #         if "-" in pair:
-    #             if pair[0] == pair[1]:
-    #                 #score of (-,-) is 0
-    #                 continue
-    #             score = score + gap_penalty
-    #             continue
-    #         score = score + readBlosum(pair, scoring_matrix)
     for i in range(len(alignment[0])):
         column = [row[i] for row in alignment]
         for pair in combinations(column, 2):
@@ -83,17 +65,19 @@ def mutate(sequence, number_of_sequences, p_insert=0.049, p_del=0.078, p_sub=0.0
             seq = seq + amino_acid
         output.append(seq)
 
-    with open('testcase.fasta', 'w') as file:
-        for i, read in enumerate(output):
-            file.write(">Sequence" + str(i) + "\n")
-            file.write(read+"\n")
-
     return output
 
 def generate_testcase(length, number_of_sequences):
+    id = str(number_of_sequences) + "_" + str(length)
     random_sequence = random_AA_seq(length)
-    mutate(random_sequence, number_of_sequences)
+    sequences = mutate(random_sequence, number_of_sequences)
+    with open("testcase" + id + ".fasta", 'w') as file:
+        for i, read in enumerate(sequences):
+            file.write(">Sequence" + str(i) + "\n")
+            file.write(read+"\n")
     return
+
+
 
 #generate_testcase(100000, 10)
 #
@@ -103,3 +87,4 @@ def generate_testcase(length, number_of_sequences):
 # evaluate_clustal("test_files/testcase2-output-tcoffee", compute_sum_of_pairs)
 # evaluate_clustal("test_files/testcase3-output-clustal", compute_sum_of_pairs)
 # #evaluate_clustal("test_files/clustal8.clustal", compute_sum_of_pairs)
+

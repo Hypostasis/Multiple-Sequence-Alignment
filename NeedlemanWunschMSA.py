@@ -15,34 +15,35 @@ class traceback:
         self.output = []
 
     def step(self):
+        while True:
+            if (self.point == (0, 0)):
+                self.output = [x for x in self.partialMSA1] + [x for x in self.partialMSA2]
+                return
+            if (self.matrix[self.point[0]][self.point[1]] == 4
+                or self.matrix[self.point[0]][self.point[1]] == 5
+                or self.matrix[self.point[0]][self.point[1]] == 6
+                or self.matrix[self.point[0]][self.point[1]] == 7):
+                # self.partialMSA1 = self.seqA[self.point[0] - 1] + self.partialMSA1
+                self.partialMSA1 = [x[self.point[0] - 1] + y for (x, y) in zip(self.MSA1, self.partialMSA1)]
+                self.partialMSA2 = [x[self.point[1] - 1] + y for (x, y) in zip(self.MSA2, self.partialMSA2)]
+                self.point = (self.point[0] - 1, self.point[1] - 1)
+                continue
+            if (self.matrix[self.point[0]][self.point[1]] == 2 or self.matrix[self.point[0]][self.point[1]] == 3):
+                # from the left, gap in MSA1
+                # self.partialMSA1 = "-" + self.partialMSA1
+                self.partialMSA1 = ["-" + x for x in self.partialMSA1]
+                self.partialMSA2 = [x[self.point[1] - 1] + y for (x, y) in zip(self.MSA2, self.partialMSA2)]
+                self.point = (self.point[0], self.point[1] - 1)
+                continue
+            if (self.matrix[self.point[0]][self.point[1]] == 1):
+                # from above, gap in B
+                # self.partialMSA1 = self.MSA1[self.point[0] - 1] + self.partialMSA1
+                self.partialMSA1 = [x[self.point[0] - 1] + y for (x, y) in zip(self.MSA1, self.partialMSA1)]
+                # self.partialMSA2 = "-" + self.partialMSA2
+                self.partialMSA2 = ["-" + x for x in self.partialMSA2]
+                self.point = (self.point[0] - 1, self.point[1])
+                continue
 
-        if(self.point == (0, 0)):
-            self.output = [x for x in self.partialMSA1] + [x for x in self.partialMSA2]
-            return
-        if(self.matrix[self.point[0]][self.point[1]] == 4
-           or self.matrix[self.point[0]][self.point[1]] == 5
-           or self.matrix[self.point[0]][self.point[1]] == 6
-           or self.matrix[self.point[0]][self.point[1]] == 7):
-            #self.partialMSA1 = self.seqA[self.point[0] - 1] + self.partialMSA1
-            self.partialMSA1 = [x[self.point[0] - 1]+y for (x,y) in zip(self.MSA1, self.partialMSA1)]
-            self.partialMSA2 = [x[self.point[1] - 1] + y for (x, y) in zip(self.MSA2, self.partialMSA2)]
-            self.point = (self.point[0]-1, self.point[1] - 1)
-            self.step()
-        if (self.matrix[self.point[0]][self.point[1]] == 2 or self.matrix[self.point[0]][self.point[1]] == 3):
-            #from the left, gap in MSA1
-            #self.partialMSA1 = "-" + self.partialMSA1
-            self.partialMSA1 = ["-" + x for x in self.partialMSA1]
-            self.partialMSA2 = [x[self.point[1] - 1] + y for (x, y) in zip(self.MSA2, self.partialMSA2)]
-            self.point = (self.point[0], self.point[1]-1)
-            self.step()
-        if (self.matrix[self.point[0]][self.point[1]] == 1):
-            #from above, gap in B
-            #self.partialMSA1 = self.MSA1[self.point[0] - 1] + self.partialMSA1
-            self.partialMSA1 = [x[self.point[0] - 1] + y for (x, y) in zip(self.MSA1, self.partialMSA1)]
-            #self.partialMSA2 = "-" + self.partialMSA2
-            self.partialMSA2 = ["-" + x for x in self.partialMSA2]
-            self.point = (self.point[0] -1, self.point[1])
-            self.step()
 
 
 

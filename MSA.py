@@ -12,7 +12,9 @@ from Bio.SeqIO import SeqRecord
 from Bio.Seq import Seq
 from itertools import combinations
 from NeedlemanWunschMSA import NeedlemanWunschMSA
-
+from Bio.Align.Applications import TCoffeeCommandline
+import os
+from Bio.Align.Applications import ClustalOmegaCommandline
 
 def levenshtein(s1, s2):
     if len(s1) < len(s2):
@@ -66,6 +68,7 @@ def save_msa_to_file(msa, filename = "output.txt"):
     file.write("\n")
     file.close()
     print("File saved.")
+    return score
 
 def merge(left, right):
     #left and right are lists of sequences representing a partial MSA
@@ -169,6 +172,8 @@ class MSA:
         self.align_button.pack()
         self.align_button = Button(master, text="Progressive NJ", command=self.align_progressive_nj)
         self.align_button.pack()
+        self.align_button = Button(master, text="Compare Methods", command=self.compare_methods)
+        self.align_button.pack()
 
         self.close_button = Button(master, text="Close", command=master.quit)
         self.close_button.pack()
@@ -176,14 +181,89 @@ class MSA:
         for seq_record in SeqIO.parse("input.fasta", "fasta"):
             self.sequences.append((seq_record.description, seq_record.seq))
 
-    def load_fasta(self):
+
+    def compare_methods(self):
+        # filenames = ["testcase3_10",
+        #              "testcase3_20",
+        #              "testcase3_30",
+        #              "testcase3_40",
+        #              "testcase3_50",
+        #              "testcase3_100",
+        #              "testcase3_250",
+        #              "testcase3_500",
+        #              "testcase3_750",
+        #              "testcase3_1000",
+        #              "testcase10_10",
+        #              "testcase10_100",
+        #              "testcase10_250",
+        #              "testcase10_500",
+        #              "testcase10_750",
+        #              "testcase10_1000",
+        #              "testcase30_10",
+        #              "testcase30_100",
+        #              "testcase30_250",]
+        filenames = ["testcase30_2000",
+                     "testcase50_10",
+                     "testcase50_100",
+                     "testcase50_250",
+                     "testcase50_500",
+                     "testcase50_1000",
+                     "testcase100_10",
+                     "testcase100_100",
+                     "testcase100_250",
+                      ]
+        with open("SCORES", 'w') as file:
+            file2 = open("run_testcases_tcoffee", "w")
+            file3 = open("run_testcases_clustalo", "w")
+            for filename in filenames:
+                print("COMPUTING ", filename)
+                self.load_fasta(filename+".fasta")
+                star_score = self.align_star(filename = filename + "_output_star")
+                progressive_nj_score = self.align_progressive_nj(filename = filename + "_output_progressive_nj")
+                file.write(filename)
+                file.write("\n")
+                file.write("STAR SCORE: ")
+                file.write(str(star_score))
+                file.write(", PROGRESSIVE NJ SCORE: ")
+                file.write(str(progressive_nj_score))
+                file.write("\n")
+
+
+                command = str(TCoffeeCommandline(infile=filename,
+                                                     output = "clustalw",
+                                                     outfile = filename + "_output_tcoffee" + ".aln"))
+                file2.write(command)
+                file2.write("\n")
+                os.system(command)
+
+
+                command = str(ClustalOmegaCommandline(infile=filename + ".fasta",
+                                                          outfile=filename + "_output_clustalo" + ".aln"))
+                file3.write(command)
+                file3.write("\n")
+                os.system(command)
+            file2.close()
+            file3.close()
+
+
+
+
+
+    def load_fasta(self, filename=""):
         """Loads sequences to be aligned from a fasta file"""
 
-        self.sequences = []
-        for seq_record in SeqIO.parse(self.field_input_file_name.get() +".fasta", "fasta"):
-            self.sequences.append((seq_record.description, seq_record.seq))
-        print("Sequences loaded from file:")
-        print(self.sequences)
+        if filename == "":
+            self.sequences = []
+            for seq_record in SeqIO.parse(self.field_input_file_name.get() + ".fasta", "fasta"):
+                self.sequences.append((seq_record.description, seq_record.seq))
+            print("Sequences loaded from file:")
+            print(self.sequences)
+        else:
+            self.sequences = []
+            for seq_record in SeqIO.parse(filename, "fasta"):
+                self.sequences.append((seq_record.description, seq_record.seq))
+            print("Sequences loaded from file:")
+            print(self.sequences)
         return
     def load_fields(self):
         """Loads sequences to be aligned from the text fields"""
@@ -211,7 +291,7 @@ class MSA:
 
 
 
-    def align_star(self, match_score = 1, mismatch_penalty = -1, gap_penalty = -1, extension_penalty = -1):
+    def align_star(self, match_score = 1, mismatch_penalty = -1, gap_penalty = -1, extension_penalty = -1, filename = "output.txt"):
         """Performs multiple sequence alignment by the center star method"""
         print(self.sequences)
         def extend(msa_to_extend, central, aligned_seq):
@@ -308,9 +388,10 @@ class MSA:
         print("ALIGNMENT:")
         for x in msa:
             print(x)
-        save_msa_to_file(msa)
+        score = save_msa_to_file(msa, filename)
+        return score
 
-    def align_progressive_nj(self, match_score = 1, mismatch_penalty = -1, gap_penalty = -1, extension_penalty = -1):
+    def align_progressive_nj(self, match_score = 1, mismatch_penalty = -1, gap_penalty = -1, extension_penalty = -1, filename = "output.txt"):
         nodes_list = [Node([str(seq[1])]) for seq in self.sequences]
         #print(nodes_list)
 
@@ -374,8 +455,8 @@ class MSA:
         print("ALIGNMENT:")
         for x in nodes_list[0].msa:
             print(str(x))
-        save_msa_to_file(nodes_list[0].msa)
-        return
+        score = save_msa_to_file(nodes_list[0].msa, filename)
+        return score
 
 
 root = Tk()

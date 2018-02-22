@@ -33,7 +33,9 @@ def evaluate_clustal(filename, function = compute_sum_of_pairs):
         alignment.append(seq_record)
     alignment_array = np.array(alignment)
     score = compute_sum_of_pairs(alignment_array)
+    print(alignment_array)
     print(score)
+    return score
 import random
 
 def random_AA_seq(length):
@@ -88,3 +90,73 @@ def generate_testcase(length, number_of_sequences):
 # evaluate_clustal("test_files/testcase3-output-clustal", compute_sum_of_pairs)
 # #evaluate_clustal("test_files/clustal8.clustal", compute_sum_of_pairs)
 
+#dla kazdego testcase
+#uruchom star i progressive, zrob tak zeby dostac outputy, potem przeniesiesz je do folderu
+#zapisz wynik dla kazdej z metod i wpisz do pliku, po kolei, obok siebie dla kazdego testcase: star pNJ
+#za kazdym razem wygeneruj tez odpalenie tcoffee
+#napisz kod, ktory oceni pliki z tcoffee
+#
+from Bio.Align.Applications import TCoffeeCommandline
+filenames = ["testcase3_10",
+                     "testcase3_20",
+                     "testcase3_30",
+                     "testcase3_40",
+                     "testcase3_50",
+                     "testcase3_100",
+                     "testcase3_250",
+                     "testcase3_500",
+                     "testcase3_750",
+                     "testcase3_1000",
+                     "testcase10_10",
+                     "testcase10_100",
+                     "testcase10_250",
+                     "testcase10_500",
+                     "testcase10_750",
+                     "testcase10_1000",
+                     "testcase30_10",
+                     "testcase30_100",
+                     "testcase30_250",]
+
+# file2 = open("run_testcases_tcoffee", "w")
+# for filename in filenames:
+#     command = str(TCoffeeCommandline(infile=filename+".fasta",
+#                                      output="clustalw",
+#                                      outfile=filename + "_output_tcoffee" + ".aln"))
+#     file2.write(command)
+#     file2.write("\n")
+#
+# file2.close()
+#
+# file2 = open("results_tcoffee", "w")
+#
+# for filename in filenames:
+#     score = evaluate_clustal(filename + "_output_tcoffee.aln", compute_sum_of_pairs)
+#     file2.write(filename)
+#     file2.write("\n")
+#     file2.write(str(score))
+#     file2.write("\n")
+#
+# file2.close()
+
+from Bio.Align.Applications import ClustalOmegaCommandline
+
+
+file2 = open("run_testcases_clustalo", "w")
+for filename in filenames:
+    command = str(ClustalOmegaCommandline(infile=filename+".fasta",
+                                     outfile=filename + "_output_clustalo" + ".aln"))
+    file2.write(command)
+    file2.write("\n")
+
+file2.close()
+
+# file2 = open("results_clustalo", "w")
+#
+# for filename in filenames:
+#     score = evaluate_clustal(filename + "_output_clustalo.aln", compute_sum_of_pairs)
+#     file2.write(filename)
+#     file2.write("\n")
+#     file2.write(str(score))
+#     file2.write("\n")
+#
+# file2.close()

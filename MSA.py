@@ -8,15 +8,12 @@ from Bio.Align import MultipleSeqAlignment
 from Bio.Alphabet import IUPAC, Gapped
 from Bio.Phylo.TreeConstruction import DistanceCalculator
 from Bio import SeqIO
-from Bio.SeqIO import SeqRecord
 from Bio.Seq import Seq
 from itertools import combinations
 from NeedlemanWunschMSA import NeedlemanWunschMSA
-from Bio.Align.Applications import TCoffeeCommandline
-import os
-from Bio.Align.Applications import ClustalOmegaCommandline
 
 def levenshtein(s1, s2):
+    """computes Levenshtein distance"""
     if len(s1) < len(s2):
         return levenshtein(s2, s1)
 
@@ -37,7 +34,7 @@ def levenshtein(s1, s2):
 
     return previous_row[-1]
 
-def d(seq1, seq2):
+def distance(seq1, seq2):
     """Computes distance between two sequences"""
     return levenshtein(seq1, seq2)
 
@@ -140,9 +137,6 @@ def merge_nodes(node1, node2):
     new_msa = NeedlemanWunschMSA(msa1, msa2)
     return Node(new_msa)
 
-    pass
-
-
 class MSA:
     #the variable sequences is a list of tuples (sequence_description, sequence)
     sequences = []
@@ -165,14 +159,11 @@ class MSA:
         self.align_button = Button(master, text="Load from text fields", command=self.load_fields)
         self.align_button.pack()
 
-
         self.align_button = Button(master, text="DCA", command=self.align_dca_edu)
         self.align_button.pack()
         self.align_button = Button(master, text="Star", command=self.align_star)
         self.align_button.pack()
         self.align_button = Button(master, text="Progressive NJ", command=self.align_progressive_nj)
-        self.align_button.pack()
-        self.align_button = Button(master, text="Compare Methods", command=self.compare_methods)
         self.align_button.pack()
 
         self.close_button = Button(master, text="Close", command=master.quit)
@@ -180,74 +171,6 @@ class MSA:
         self.sequences = []
         for seq_record in SeqIO.parse("input.fasta", "fasta"):
             self.sequences.append((seq_record.description, seq_record.seq))
-
-
-    def compare_methods(self):
-        # filenames = ["testcase3_10",
-        #              "testcase3_20",
-        #              "testcase3_30",
-        #              "testcase3_40",
-        #              "testcase3_50",
-        #              "testcase3_100",
-        #              "testcase3_250",
-        #              "testcase3_500",
-        #              "testcase3_750",
-        #              "testcase3_1000",
-        #              "testcase10_10",
-        #              "testcase10_100",
-        #              "testcase10_250",
-        #              "testcase10_500",
-        #              "testcase10_750",
-        #              "testcase10_1000",
-        #              "testcase30_10",
-        #              "testcase30_100",
-        #              "testcase30_250",]
-        filenames = ["testcase30_2000",
-                     "testcase50_10",
-                     "testcase50_100",
-                     "testcase50_250",
-                     "testcase50_500",
-                     "testcase50_1000",
-                     "testcase100_10",
-                     "testcase100_100",
-                     "testcase100_250",
-                      ]
-        with open("SCORES", 'w') as file:
-            file2 = open("run_testcases_tcoffee", "w")
-            file3 = open("run_testcases_clustalo", "w")
-            for filename in filenames:
-                print("COMPUTING ", filename)
-                self.load_fasta(filename+".fasta")
-                star_score = self.align_star(filename = filename + "_output_star")
-                progressive_nj_score = self.align_progressive_nj(filename = filename + "_output_progressive_nj")
-                file.write(filename)
-                file.write("\n")
-                file.write("STAR SCORE: ")
-                file.write(str(star_score))
-                file.write(", PROGRESSIVE NJ SCORE: ")
-                file.write(str(progressive_nj_score))
-                file.write("\n")
-
-
-                command = str(TCoffeeCommandline(infile=filename,
-                                                     output = "clustalw",
-                                                     outfile = filename + "_output_tcoffee" + ".aln"))
-                file2.write(command)
-                file2.write("\n")
-                os.system(command)
-
-
-                command = str(ClustalOmegaCommandline(infile=filename + ".fasta",
-                                                          outfile=filename + "_output_clustalo" + ".aln"))
-                file3.write(command)
-                file3.write("\n")
-                os.system(command)
-            file2.close()
-            file3.close()
-
-
-
-
 
     def load_fasta(self, filename=""):
         """Loads sequences to be aligned from a fasta file"""
@@ -265,6 +188,7 @@ class MSA:
             print("Sequences loaded from file:")
             print(self.sequences)
         return
+
     def load_fields(self):
         """Loads sequences to be aligned from the text fields"""
         self.sequences = []
@@ -273,7 +197,6 @@ class MSA:
         self.sequences.append(("Seq3", self.field_S3.get()))
         print("Sequences loaded from fields:")
         print(self.sequences)
-        return
 
     def align_dca(self):
         return
@@ -330,8 +253,7 @@ class MSA:
                     msa_pointer = msa_pointer + msa_counter + 1
                     central_pointer = central_pointer + central_counter + 1
                 else:
-                    # introduce gaps into msa
-
+                    # introduce gaps into the msa
                     diff = central_counter - msa_counter
                     for i, sequence in enumerate(msa_to_extend):
                         msa_to_extend[i] = msa_to_extend[i][:msa_pointer] + "-" * diff + msa_to_extend[i][msa_pointer:]
@@ -393,7 +315,6 @@ class MSA:
 
     def align_progressive_nj(self, match_score = 1, mismatch_penalty = -1, gap_penalty = -1, extension_penalty = -1, filename = "output.txt"):
         nodes_list = [Node([str(seq[1])]) for seq in self.sequences]
-        #print(nodes_list)
 
         calculator = DistanceCalculator('blosum62')
 
@@ -420,7 +341,6 @@ class MSA:
         print("ARGMIN, MIN", argmin, distance_matrix[argmin[0]][argmin[1]])
 
         print(distance_matrix)
-        # print(d(self.sequences[0][1], self.sequences[1][1]))
         while len(nodes_list) > 1:
             argmin = (0, 1)
             minvalue = distance_matrix[argmin[0], argmin[1]]
@@ -432,8 +352,6 @@ class MSA:
             second = argmin[1]
             newnode = merge_nodes(nodes_list[first], nodes_list[second])
             nodes_list = nodes_list[0:first] + nodes_list[first + 1:second] + nodes_list[second + 1:]
-            # nodes_list.remove(nodes_list[first])
-            # nodes_list.remove(nodes_list[second])
             nodes_list.append(newnode)
 
             distance_matrix = np.zeros((len(nodes_list), len(nodes_list)))

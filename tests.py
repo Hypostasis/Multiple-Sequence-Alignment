@@ -90,12 +90,6 @@ def generate_testcase(length, number_of_sequences):
 # evaluate_clustal("test_files/testcase3-output-clustal", compute_sum_of_pairs)
 # #evaluate_clustal("test_files/clustal8.clustal", compute_sum_of_pairs)
 
-#dla kazdego testcase
-#uruchom star i progressive, zrob tak zeby dostac outputy, potem przeniesiesz je do folderu
-#zapisz wynik dla kazdej z metod i wpisz do pliku, po kolei, obok siebie dla kazdego testcase: star pNJ
-#za kazdym razem wygeneruj tez odpalenie tcoffee
-#napisz kod, ktory oceni pliki z tcoffee
-#
 from Bio.Align.Applications import TCoffeeCommandline
 filenames = ["testcase3_10",
                      "testcase3_20",
@@ -139,7 +133,6 @@ filenames = ["testcase3_10",
 # file2.close()
 
 from Bio.Align.Applications import ClustalOmegaCommandline
-
 
 file2 = open("run_testcases_clustalo", "w")
 for filename in filenames:

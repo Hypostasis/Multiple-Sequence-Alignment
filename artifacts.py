@@ -1,4 +1,4 @@
-#  this file contains code that can be useful,
+#  this file contains code that may be useful,
 #  but is not part of the final version of the project
 from Bio.Align.Applications import TCoffeeCommandline
 import os

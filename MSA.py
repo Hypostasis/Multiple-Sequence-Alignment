@@ -12,11 +12,6 @@ from Bio.Seq import Seq
 from itertools import combinations
 from NeedlemanWunschMSA import NeedlemanWunschMSA
 
-def levenshtein(s1, s2):
-    """computes Levenshtein distance"""
-    if len(s1) < len(s2):
-        return levenshtein(s2, s1)
-
     # len(s1) >= len(s2)
     if len(s2) == 0:
         return len(s1)
